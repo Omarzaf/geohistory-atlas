@@ -1,0 +1,15 @@
+/dist/
+/.cache/
+/.impeccable/
+/.playwright-mcp/
+/.vercel/
+/node_modules/
+/.agents/
+/.codex/
+.env*
+**/.env*
+.DS_Store
+*.log
+/receipts/*
+!/receipts/regional-acquisition.json
+!/receipts/regional-import-review.json

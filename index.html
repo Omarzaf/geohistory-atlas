@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en" class="continuous-document">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c3c">
+  <meta name="description" content="Explore the Middle East and South Asia through source-dated historical maps, places, events, and journeys, from 600 BCE to 1947.">
+  <title>Geohistory — Middle East &amp; South Asia</title>
+  <link rel="icon" type="image/svg+xml" href="assets/region/favicon.svg">
+  <link rel="stylesheet" href="css/region.css">
+  <script defer src="js/region/snapshots.js"></script>
+  <script type="module" src="js/region/app.mjs"></script>
+</head>
+<body class="confluence continuous-page" data-mode="welcome" data-reader="closed">
+  <a class="skip-link" href="#reading-pane">Skip to historical records</a>
+  <div class="atlas-shell">
+    <header class="masthead">
+      <a class="brand" href="./" aria-label="Geohistory home">
+        <svg class="brand-mark" viewBox="0 0 38 38" aria-hidden="true"><path d="M5 29V10l9-4 10 4 9-4v19l-9 4-10-4zM14 6v19m10-15v19"/><circle cx="19" cy="17" r="3"/></svg>
+        <span><strong>Geohistory</strong><span class="brand-region">Middle East &amp; South Asia</span></span>
+      </a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a id="atlas-button" class="text-button" href="#atlas-section" aria-current="location">Atlas</a>
+        <a id="journeys-button" class="text-button" href="#journeys-section">Journeys</a>
+        <a id="learn-button" class="text-button" href="#stories-section">Stories</a>
+        <a id="sources-button" class="text-button" href="#sources-section" aria-label="About and sources">Sources</a>
+      </nav>
+      <div class="header-search search-wrap">
+        <label class="visually-hidden" for="search-input">Search places, events, and journeys</label>
+        <svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg>
+        <input id="search-input" type="search" placeholder="Find a place, event, or journey" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+        <kbd aria-hidden="true">/</kbd>
+        <div id="search-results" class="search-results" aria-label="Search results" hidden></div>
+      </div>
+      <div class="header-actions">
+        <button id="share-button" class="quiet-button" type="button" aria-label="Share view"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M8 12l4-4m-7 6-1 1a3 3 0 0 1-4-4l4-4a3 3 0 0 1 4 0m4 6a3 3 0 0 0 4 0l4-4a3 3 0 0 0-4-4l-1 1" transform="translate(1 0) scale(.9)"/></svg><span>Share view</span></button>
+      </div>
+    </header>
+    <main class="atlas-main">
+      <section id="atlas-section" class="map-section" aria-label="Interactive historical map">
+        <div id="map-intro" class="confluence-hero">
+          <p class="hero-kicker">Ibn Battuta · selected stops</p>
+          <h1>Across courts<br>and seas.</h1>
+          <p class="hero-description">Follow documented stops across the Middle East and South Asia.</p>
+          <button id="begin-journey" class="primary-action" type="button">Explore the stops <span aria-hidden="true">→</span></button>
+          <button id="explore-map" class="hero-secondary" type="button">Or explore the atlas freely</button>
+          <p class="hero-scope">600 BCE–1947 · maps, places &amp; stories</p>
+        </div>
+        <div class="map-toolbar">
+          <details id="layers-menu" class="layers-menu">
+            <summary><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m2 6 8-4 8 4-8 4zM2 10l8 4 8-4M2 14l8 4 8-4"/></svg><span>Layers</span></summary>
+            <div class="layers-content">
+              <label><input id="layer-territories" type="checkbox" checked> Historical territories</label>
+              <label><input id="layer-places" type="checkbox" checked> Reference places</label>
+              <label><input id="layer-rivers" type="checkbox" checked> Modern rivers &amp; lakes</label>
+              <label><input id="layer-relief" type="checkbox" checked> Modern shaded relief</label>
+              <label><input id="layer-labels" type="checkbox" checked> Territory names</label>
+              <label><input id="layer-events" type="checkbox" checked> Events near this year</label>
+              <label><input id="layer-connections" type="checkbox"> Connections &amp; exchange</label>
+              <p>Land and water use modern physical geography for orientation.</p>
+            </div>
+          </details>
+        </div>
+        <div class="region-switch" role="group" aria-label="Map extent">
+          <button type="button" data-view="all" class="active" aria-pressed="true">Whole region</button>
+          <button type="button" data-view="west" aria-pressed="false">Middle East</button>
+          <button type="button" data-view="east" aria-pressed="false">South Asia</button>
+        </div>
+        <svg id="map" viewBox="0 0 1200 760" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="map-title map-desc" tabindex="0">
+          <title id="map-title">Historical atlas of the Middle East and South Asia</title>
+          <desc id="map-desc">Source-dated territories with reference places. Use the polity list and place directory for keyboard access. Arrow keys pan this map, plus and minus zoom.</desc>
+          <defs><pattern id="uncertain-fill" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V8" stroke="#807565" stroke-opacity=".18" stroke-width="2"/></pattern></defs>
+          <g id="base-layer"></g>
+          <g id="relief-layer" aria-hidden="true"></g>
+          <g id="territory-layer"></g>
+          <g id="water-layer"></g>
+          <g id="geography-labels"></g>
+          <g id="connection-layer"></g>
+          <g id="polity-label-layer"></g>
+          <g id="journey-layer"></g>
+          <g id="welcome-layer"></g>
+          <g id="place-layer"></g>
+          <g id="event-layer"></g>
+        </svg>
+        <div id="map-loading" class="map-loading" role="status"><span class="loading-compass" aria-hidden="true"></span><strong>Opening the atlas</strong><p>Loading source-dated maps and historical records.</p></div>
+        <div class="map-date" id="map-date" aria-live="polite"></div>
+        <div id="map-tip" class="map-tip" role="status" hidden></div>
+        <details id="legend" class="map-legend" open>
+          <summary><span>On this map</span><span id="legend-count"></span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 10 4-4 4 4"/></svg></summary>
+          <div id="legend-items" class="legend-items"></div>
+          <p class="legend-note">Approximate territories · select a name to inspect</p>
+        </details>
+        <div class="map-controls" aria-label="Map controls">
+          <button id="zoom-in" type="button" aria-label="Zoom in"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12M10 4v12"/></svg></button>
+          <button id="zoom-out" type="button" aria-label="Zoom out"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12"/></svg></button>
+          <button id="map-reset" type="button" aria-label="Reset map view"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3H3v3m11-3h3v3M3 14v3h3m11-3v3h-3M6 6h8v8H6z"/></svg></button>
+          <button id="map-fullscreen" type="button" aria-label="Expand map" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 8V3h5m4 0h5v5M3 12v5h5m4 0h5v-5"/></svg></button>
+        </div>
+        <div id="map-scale" class="map-scale" aria-label="Approximate map scale"></div>
+        <button id="reading-toggle" class="map-reading-toggle" type="button" aria-controls="reading-pane" aria-expanded="false">Explore records</button>
+        <p id="map-story-note" class="map-story-note">Selected stops · schematic connections, not routes</p>
+        <div class="map-footnote"><span class="touch-note">Use two fingers to move the map</span><span id="overlay-key" hidden></span><span>Modern physical base · historical borders approximate</span></div>
+      </section>
+    <section id="chronology-section" class="timeline" aria-label="Historical timeline">
+      <div id="journey-ribbon" class="journey-ribbon" aria-label="Journey stops">
+        <div class="ribbon-heading"><span>Follow a journey</span><strong id="ribbon-title">Ibn Battuta</strong></div>
+        <div id="journey-stops" class="ribbon-stops" aria-label="Selected documented stops"></div>
+        <div class="ribbon-actions"><button id="journey-toggle" type="button" aria-pressed="false">Play stops</button><button id="ribbon-fit" type="button">See whole journey</button></div>
+      </div>
+      <div class="timeline-compact">
+        <div class="compact-date-group"><strong id="compact-year">1334 CE</strong><span id="compact-coverage">No territory map for this year</span></div>
+        <div id="compact-map-dates" class="compact-map-dates" role="group" aria-label="Dated map shortcuts"></div>
+        <button id="chronology-button" type="button" aria-expanded="false" aria-controls="timeline-details">Chronology <span aria-hidden="true">↗</span></button>
+      </div>
+      <div id="timeline-details" class="timeline-details">
+      <div class="timeline-toolbar">
+        <span class="timeline-title">A world in motion</span>
+        <div class="timeline-options">
+          <div class="playback-mode" role="group" aria-label="Playback sequence">
+            <button type="button" data-playback-mode="maps" aria-pressed="true">Maps</button>
+            <button type="button" data-playback-mode="events" aria-pressed="false">Events</button>
+          </div>
+          <label class="playback-speed-label" for="playback-speed">Speed <select id="playback-speed"><option value="1">1×</option><option value="2">2×</option><option value="3">3×</option></select></label>
+          <div class="time-window-controls" role="group" aria-label="Timeline zoom">
+            <button id="timeline-zoom-in" type="button" aria-label="Zoom into timeline"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12M10 4v12"/></svg></button>
+            <button id="timeline-zoom-out" type="button" aria-label="Zoom out of timeline"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12"/></svg></button>
+            <button id="timeline-reset" type="button">All time</button>
+          </div>
+          <button id="timeline-expand" type="button" aria-expanded="false" aria-controls="period-ribbon event-ticks">More <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 12 5-5 5 5"/></svg></button>
+        </div>
+      </div>
+      <div class="timeline-main">
+        <div class="playback-controls">
+          <button id="previous-snapshot" class="icon-button" type="button" aria-label="Previous dated snapshot"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m12 5-5 5 5 5"/></svg></button>
+          <button id="play-button" class="play-button" type="button" aria-label="Play through dated snapshots" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 9 6-9 6z"/></svg></button>
+          <button id="next-snapshot" class="icon-button" type="button" aria-label="Next dated snapshot"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m8 5 5 5-5 5"/></svg></button>
+        </div>
+        <div class="timeline-track">
+          <div id="period-ribbon" class="period-ribbon" aria-label="Editorial periods; select to explore"></div>
+          <div class="timeline-event-row"><span class="event-lane-label">Events</span><div id="event-ticks" class="event-ticks" aria-label="Events on this timeline"></div></div>
+          <div class="snapshot-shortcuts">
+            <div class="shortcut-heading"><span>Map dates</span><span class="shortcut-scroll-hint">Swipe dates</span></div>
+            <div class="shortcut-scroll-wrap"><div id="snapshot-ticks" class="snapshot-ticks" aria-label="Available map date shortcuts"></div></div>
+          </div>
+          <div class="continuous-timeline">
+            <label class="slider-heading" for="year-slider">Explore any year</label>
+            <input id="year-slider" type="range" min="-600" max="1947" value="1600" step="1" aria-label="Selected year, negative values are BCE">
+            <div class="timeline-limits"><span id="timeline-from">600 BCE</span><span id="timeline-window-note">Selected maps · events · editorial periods</span><span id="timeline-to">1947 CE</span></div>
+          </div>
+        </div>
+        <form id="year-form" class="year-control">
+          <label for="year-input">Explore a year</label>
+          <div><input id="year-input" type="number" min="-600" max="1947" step="1" value="1600" aria-label="Year; use a negative number for BCE"><span id="year-era">CE</span><button type="submit" aria-label="Go to year">Go</button></div>
+        </form>
+      </div>
+      <div class="timeline-meta"><span id="coverage-status">Selected snapshots, 600 BCE–1947</span><span id="keyboard-hint">Space to play · left / right to step</span></div>
+      </div>
+    </section>
+      <aside id="reading-pane" class="reading-pane" aria-label="Historical records" tabindex="-1">
+        <div class="reader-topline"><span id="reader-label">Selected from the atlas</span><button id="reader-close" class="text-button" type="button" aria-label="Close reading panel">Back to map <span aria-hidden="true">×</span></button></div>
+        <nav class="reading-tabs" aria-label="Explore the atlas">
+          <button id="tab-overview" type="button" class="active" aria-current="page">Explore</button>
+          <button id="tab-learn" type="button">Learn</button>
+          <button id="tab-places" type="button">Places</button>
+          <button id="tab-events" type="button">Events</button>
+          <button id="tab-journeys" type="button">Journeys</button>
+        </nav>
+        <div id="reading-content" class="reading-content"><h1>Across regions.<br>Through time.</h1><p class="reading-intro">An atlas of connected histories, from the eastern Mediterranean to the Indian Ocean.</p></div>
+      </aside>
+      <section id="journeys-section" class="page-section" aria-labelledby="journeys-heading">
+        <div class="section-heading"><p class="section-kicker">01 / Documented journeys</p><h2 id="journeys-heading">Across courts and seas.</h2><p class="section-lede">Follow selected stops, then open the accounts and sources behind them.</p></div>
+        <div id="page-journeys" class="section-content"></div>
+      </section>
+      <section id="stories-section" class="page-section" aria-labelledby="stories-heading">
+        <div class="section-heading"><p class="section-kicker">02 / Connected histories</p><h2 id="stories-heading">Find the threads<br>that connect us.</h2><p class="section-lede">Follow a story across the map. Notice what changed, what travelled, and what endured.</p></div>
+        <div id="page-stories" class="section-content"></div>
+      </section>
+      <section id="sources-section" class="page-section" aria-labelledby="sources-heading">
+        <div class="section-heading"><p class="section-kicker">03 / Evidence &amp; provenance</p><h2 id="sources-heading">A map with its sources.</h2><p class="section-lede">Read the dates, inspect the references, and keep the limits of the evidence in view.</p></div>
+        <div id="page-sources" class="section-content"></div>
+      </section>
+      <footer class="page-colophon"><a href="#atlas-section">Back to the atlas ↑</a><span>Geohistory · Middle East &amp; South Asia · 600 BCE–1947</span></footer>
+    </main>
+
+  </div>
+  <div id="announcement" class="visually-hidden" role="status" aria-live="polite"></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript><p class="noscript-message">This interactive atlas needs JavaScript. Its historical records and source references are available in <a href="data/region/chronicle.json">the downloadable dataset</a>.</p></noscript>
+</body>
+</html>

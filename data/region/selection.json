@@ -1,0 +1,452 @@
+{
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Agent screening of source labels, chronology and authority fields, with institutional reference chronologies. This does not establish surveyed geometry or human scholarly acceptance. Unselected source features are not published.",
+  "snapshots": [
+    {
+      "year": -500,
+      "title": "Persia and the Ganges kingdoms",
+      "description": "Explore selected Achaemenid and northern South Asian territories. Unfilled land is outside this edition's checked coverage.",
+      "include": [
+        "Achaemenid Empire",
+        "Magadha",
+        "Avanti",
+        "Kasi",
+        "Kosala",
+        "Vatsa"
+      ],
+      "references": [
+        "met-achaemenid",
+        "getty-persia",
+        "met-south-ancient"
+      ]
+    },
+    {
+      "year": -200,
+      "title": "Hellenistic and Mauryan worlds",
+      "description": "Selected realms across Egypt, western Asia and the subcontinent. Frontiers are schematic, and local authority is not exhaustively represented.",
+      "include": [
+        "Parthia",
+        "Nabatean Kingdom",
+        "Mauryan Empire",
+        "Ptolemaic Kingdom",
+        "Seleucid Kingdom",
+        "Simhala"
+      ],
+      "references": [
+        "getty-persia",
+        "met-mesopotamia-ancient",
+        "met-south-ancient",
+        "met-south-medieval"
+      ]
+    },
+    {
+      "year": 200,
+      "title": "Rome, Parthia and southern kingdoms",
+      "description": "A partial view across the Roman and Parthian worlds and southern South Asia. Kushan territories are a known gap in the selected source geometry.",
+      "include": [
+        "Roman Empire",
+        "Parthian Empire",
+        "Saka Kingdom",
+        "Satavahanihara",
+        "Chola",
+        "Simhala"
+      ],
+      "references": [
+        "getty-persia",
+        "met-iran-roman",
+        "met-south-roman"
+      ],
+      "notes": "The source label Satavahanihara is preserved in metadata and displayed as Satavahana. No Kushan geometry has been fabricated."
+    },
+    {
+      "year": 600,
+      "title": "Sasanians, Byzantium and the Deccan",
+      "description": "Selected territories before the seventh-century conquests. Dependent areas remain distinguished from the core Sasanian outline.",
+      "include": [
+        "Eastern Roman Empire",
+        "Sasanian Empire",
+        "Sasanian dependencies",
+        "Chalukyas",
+        "Pallavas",
+        "Simhala"
+      ],
+      "references": [
+        "met-iran-medieval",
+        "getty-persia",
+        "met-south-medieval",
+        "met-north-medieval"
+      ]
+    },
+    {
+      "year": 900,
+      "title": "Caliphate and regional powers",
+      "description": "Explore selected regional powers in western Asia and South Asia. The source's broad caliphal outline does not imply uniform direct administration.",
+      "include": [
+        "Byzantine Empire",
+        "Abbasid Caliphate",
+        "Samanid Empire",
+        "Saffarids",
+        "Gurjara Pratihara",
+        "Rashtrakuta",
+        "Palas",
+        "Cholas",
+        "Hindu Shahis",
+        "Sindh",
+        "Multan"
+      ],
+      "references": [
+        "met-iran-medieval",
+        "met-north-medieval",
+        "met-south-medieval"
+      ],
+      "notes": "Tibetan Empire, Vallabhi and Pallava polygons are excluded because their labels are inconsistent with the selected year or insufficiently checked."
+    },
+    {
+      "year": 1100,
+      "title": "Seljuqs, Fatimids and Cholas",
+      "description": "Selected territories across western Asia and South Asia. These outlines are a reference for this date, not a map of the later journeys shown in the atlas.",
+      "include": [
+        "Seljuk Empire",
+        "Byzantine Empire",
+        "Fatimid Caliphate",
+        "Ghaznavid Emirate",
+        "Cholas",
+        "Western Chalukyas",
+        "Palas"
+      ],
+      "references": [
+        "met-iran-late-medieval",
+        "met-central-medieval",
+        "met-arabia-medieval",
+        "met-north-late-medieval",
+        "met-south-medieval"
+      ],
+      "notes": "1200 CE was rejected: the source includes Fatimid, Buyid and Ghaznavid labels at an unsuitable date. No automatic relabeling of those shapes was performed."
+    },
+    {
+      "year": 1500,
+      "title": "Sultanates and connected courts",
+      "description": "Selected Ottoman, Mamluk, Timurid and South Asian territories around the turn of the sixteenth century.",
+      "include": [
+        "Ottoman Empire",
+        "Mamluke Sultanate",
+        "Sultanate of Delhi",
+        "Bengal",
+        "Vijayanagara",
+        "Timurid Emirates",
+        "Emirate of the White Sheep Turks"
+      ],
+      "references": [
+        "met-ottoman",
+        "met-iran-early-modern",
+        "met-north-late-medieval",
+        "met-south-early-modern"
+      ]
+    },
+    {
+      "year": 1600,
+      "title": "Ottoman, Safavid and Mughal worlds",
+      "description": "Three large realms share the map with selected Deccan powers. Explore their cities, then compare the neighboring snapshots.",
+      "include": [
+        "Ottoman Empire",
+        "Safavid Empire",
+        "Mughal Empire",
+        "Bijapur",
+        "Ahmadnagar",
+        "Golkonda"
+      ],
+      "references": [
+        "met-ottoman",
+        "met-iran-early-modern",
+        "met-north-early-modern",
+        "met-south-early-modern"
+      ],
+      "notes": "Bengal and Orissa are not rendered as separate sovereign polities from this candidate file. Source outlines remain schematic. The broad Vijayanagara polygon is withheld pending post-1565 territorial review."
+    },
+    {
+      "year": 1800,
+      "title": "Regional states and imperial pressure",
+      "description": "Selected Ottoman, Iranian, Afghan and South Asian realms. East India Company possessions are a coverage gap here; unfilled land must not be read as ungoverned territory.",
+      "include": [
+        "Ottoman Empire",
+        "Persia",
+        "Afghanistan",
+        "Maratha Confederacy",
+        "Nepal",
+        "Mysore",
+        "Nizam's Dominions",
+        "Sikhs",
+        "Oman"
+      ],
+      "references": [
+        "met-iran-later",
+        "met-north-colonial",
+        "met-ottoman-later",
+        "bl-mysore"
+      ],
+      "notes": "Dutch Ceylon and Dutch-labelled southwestern Indian areas were excluded. Mysore and Hyderabad are shown as dependent/unequal-treaty states, not wholly independent powers."
+    },
+    {
+      "year": 1914,
+      "title": "Empires on the eve of war",
+      "description": "A schematic prewar reference. British India combines directly ruled areas and princely states; the map does not distinguish their internal boundaries. Status could change within 1914.",
+      "include": [
+        "Ottoman Empire",
+        "British Raj",
+        "Persia",
+        "Afghanistan",
+        "Nepal",
+        "Bhutan",
+        "Egypt",
+        "Ceylon",
+        "Russian Empire"
+      ],
+      "references": [
+        "nz-british-india",
+        "uk-parliament-india",
+        "nz-ottoman",
+        "nz-persia",
+        "nz-russia",
+        "tna-ceylon",
+        "sl-colonial"
+      ],
+      "notes": "The candidate 1945 map is rejected for anachronistic identities and control fields. No 1947 partition boundary is inferred from this 1914 reference."
+    }
+  ],
+  "excludedSnapshots": [
+    {
+      "year": 1200,
+      "reason": "Multiple unsuitable dynasty labels, including Fatimid and Buyid; replaced with the separately acquired 1100 source."
+    },
+    {
+      "year": 1945,
+      "reason": "Anachronistic modern identities and missing colonial-control distinctions. Excluded rather than relabeling modern geometry as historical borders."
+    }
+  ],
+  "sources": [
+    {
+      "id": "met-achaemenid",
+      "title": "The Achaemenid Persian Empire",
+      "url": "https://www.metmuseum.org/essays/the-achaemenid-persian-empire-550-330-b-c",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "getty-persia",
+      "title": "Persia: Ancient Iran and the Classical World",
+      "url": "https://www.getty.edu/art/exhibitions/persia/explore.html",
+      "publisher": "J. Paul Getty Museum",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-south-ancient",
+      "title": "South Asia, 1000 BCE–1 CE",
+      "url": "https://www.metmuseum.org/toah/ht/04/ssa.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-mesopotamia-ancient",
+      "title": "Mesopotamia, 1000 BCE–1 CE",
+      "url": "https://www.metmuseum.org/toah/ht/04/wam.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-iran-roman",
+      "title": "Iran, 1–500 CE",
+      "url": "https://www.metmuseum.org/toah/ht/05/wai.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-south-roman",
+      "title": "South Asia, 1–500 CE",
+      "url": "https://www.metmuseum.org/toah/ht/05/ssa.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-iran-medieval",
+      "title": "Iran, 500–1000 CE",
+      "url": "https://www.metmuseum.org/toah/ht/06/wai.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-north-medieval",
+      "title": "South Asia: North, 500–1000 CE",
+      "url": "https://www.metmuseum.org/toah/ht/06/ssn.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-south-medieval",
+      "title": "South Asia: South, 500–1000 CE",
+      "url": "https://www.metmuseum.org/toah/ht/06/sss.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-iran-late-medieval",
+      "title": "Iran, 1000–1400 CE",
+      "url": "https://www.metmuseum.org/toah/ht/07/wai.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-central-medieval",
+      "title": "Central and North Asia, 1000–1400 CE",
+      "url": "https://www.metmuseum.org/toah/ht/07/nc.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-arabia-medieval",
+      "title": "Arabian Peninsula, 1000–1400 CE",
+      "url": "https://www.metmuseum.org/toah/ht/07/wap.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-north-late-medieval",
+      "title": "South Asia: North, 1000–1400 CE",
+      "url": "https://www.metmuseum.org/toah/ht/07/ssn.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-ottoman",
+      "title": "The Art of the Ottomans before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-iran-early-modern",
+      "title": "Iran, 1400–1600 CE",
+      "url": "https://www.metmuseum.org/toah/ht/08/wai.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-north-early-modern",
+      "title": "South Asia, 1400–1600 CE",
+      "url": "https://www.metmuseum.org/de/toah/ht/08/ssa",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-south-early-modern",
+      "title": "South Asia, 1400–1600 CE",
+      "url": "https://www.metmuseum.org/de/toah/ht/08/ssa",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-iran-later",
+      "title": "Iran, 1600–1800 CE",
+      "url": "https://www.metmuseum.org/toah/ht/09/wai.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-north-colonial",
+      "title": "South Asia and the Himalayan Region, 1800–1900 CE",
+      "url": "https://www.metmuseum.org/toah/ht/10/ssa.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "met-ottoman-later",
+      "title": "Anatolia and the Caucasus, 1800–1900 CE",
+      "url": "https://www.metmuseum.org/ru/toah/ht/10/waa.html",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "nz-british-india",
+      "title": "British India in 1914",
+      "url": "https://nzhistory.govt.nz/war/british-india-facts",
+      "publisher": "New Zealand Ministry for Culture and Heritage",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "uk-parliament-india",
+      "title": "India and Britain in 1914",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/collections1/collections2/india-is-heart-and-soul-/",
+      "publisher": "UK Parliament",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "nz-ottoman",
+      "title": "Ottoman Empire in 1914",
+      "url": "https://nzhistory.govt.nz/war/ottoman-empire-facts",
+      "publisher": "New Zealand Ministry for Culture and Heritage",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "nz-persia",
+      "title": "Persia and the First World War",
+      "url": "https://www.iranicaonline.org/articles/constitutional-revolution-iv/",
+      "publisher": "Encyclopaedia Iranica",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "nz-russia",
+      "title": "Russian Empire in 1914",
+      "url": "https://nzhistory.govt.nz/war/russian-empire-facts",
+      "publisher": "New Zealand Ministry for Culture and Heritage",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "bl-mysore",
+      "title": "Treaties with Mysore and the Nizam, 1799",
+      "url": "https://searcharchives.bl.uk/catalog/040-000004729",
+      "publisher": "British Library",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Chronological reference; not a verification of polygon vertices"
+    },
+    {
+      "id": "tna-ceylon",
+      "title": "Colonial administration records: Ceylon",
+      "url": "https://cdn.nationalarchives.gov.uk/documents/migrated-archives-4-guidance.pdf",
+      "publisher": "The National Archives, United Kingdom",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Ceylon authority chronology; not a verification of polygon vertices"
+    },
+    {
+      "id": "sl-colonial",
+      "title": "Sri Lanka country overview: British rule and independence",
+      "url": "https://www.gov.lk/index.php/sri-lanka/country-overview",
+      "publisher": "Government of Sri Lanka",
+      "checkedAt": "2026-11-19",
+      "reviewScope": "Ceylon authority chronology; not a verification of polygon vertices"
+    }
+  ]
+}
