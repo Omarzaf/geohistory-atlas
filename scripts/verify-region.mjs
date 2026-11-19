@@ -14,7 +14,7 @@ const checks = [
   ['--check', 'js/region/timeline.mjs'],
   ['--check', 'scripts/browser-learning.qa.mjs'],
   ['--check', 'scripts/browser-region.qa.js'],
-  ['--test', 'scripts/tests/region.test.mjs'],
+  ['--test', 'scripts/tests/region.test.mjs', 'scripts/tests/embed.test.mjs'],
 ];
 for (const args of checks) {
   const result = spawnSync(process.execPath, args, { cwd, stdio: 'inherit' });
