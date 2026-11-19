@@ -1,0 +1,1113 @@
+{
+  "meta": {
+    "title": "Geohistory learning journeys",
+    "version": 1,
+    "checkedAt": "2026-11-19",
+    "reviewStatus": "Agent source review; independent human scholarly review pending.",
+    "scope": "Editorial learning paths through existing accepted records; not comprehensive regional coverage.",
+    "dateConvention": "Signed civil years without year zero. Editorial viewing anchors and approximate travel dates are labeled in each stop.",
+    "sourceConvention": "Source IDs refer to the included source register and match chronicle.json. A pair of citations is not a count of independent witnesses.",
+    "sourceDependencies": "ORIAS teaching pages and the linked translations draw on Ibn Battuta’s Rihla; they are related interpretations of one underlying narrative, not independent testimony. UNESCO descriptions and institutional heritage summaries may share scholarship. Quiz answers about map behavior are supported by the shipped dataset and implementation, not by historical sources alone. The 1857 museum narrative and object catalogue both draw on National Army Museum collections; institutional provenance is shared. These learning paths paraphrase bounded facts from the existing atlas and add editorial questions, not newly accepted independent historical claims.",
+    "geometryNote": "Story lines and connections are schematic. No new territory polygons, precise historical routes, or inferred location coordinates are introduced."
+  },
+  "sources": [
+    {
+      "id": "unesco-samarra",
+      "title": "Samarra Archaeological City",
+      "url": "https://whc.unesco.org/en/list/276/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Outstanding Universal Value, first two paragraphs"
+    },
+    {
+      "id": "unesco-bamiyan",
+      "title": "Cultural Landscape and Archaeological Remains of the Bamiyan Valley",
+      "url": "https://whc.unesco.org/en/list/208/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Description"
+    },
+    {
+      "id": "unesco-agra",
+      "title": "Taj Mahal",
+      "url": "https://whc.unesco.org/en/list/252/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Description; Outstanding Universal Value"
+    },
+    {
+      "id": "unesco-nalanda",
+      "title": "Archaeological Site of Nalanda Mahavihara at Nalanda, Bihar",
+      "url": "https://whc.unesco.org/en/list/1502/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Description; Outstanding Universal Value"
+    },
+    {
+      "id": "unesco-paharpur",
+      "title": "Ruins of the Buddhist Vihara at Paharpur",
+      "url": "https://whc.unesco.org/en/list/322/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Description"
+    },
+    {
+      "id": "unesco-lumbini",
+      "title": "Lumbini, the Birthplace of the Lord Buddha",
+      "url": "https://whc.unesco.org/en/list/666/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Description; Outstanding Universal Value"
+    },
+    {
+      "id": "met-achaemenid",
+      "title": "The Achaemenid Persian Empire (550–330 B.C.)",
+      "url": "https://www.metmuseum.org/essays/the-achaemenid-persian-empire-550-330-b-c",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Essay paragraphs on Cyrus entering Babylon in 539 BCE"
+    },
+    {
+      "id": "met-abbasid",
+      "title": "The Art of the Abbasid Period (750–1258)",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "First historical paragraph; Samarra discussion"
+    },
+    {
+      "id": "met-umayyad",
+      "title": "The Art of the Umayyad Period (661–750)",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Historical overview, opening paragraphs"
+    },
+    {
+      "id": "met-fatimid",
+      "title": "The Art of the Fatimid Period (909–1171)",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Historical overview, Cairo foundation paragraph"
+    },
+    {
+      "id": "met-ottoman",
+      "title": "The Art of the Ottomans before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Historical overview, Constantinople paragraphs"
+    },
+    {
+      "id": "met-safavid",
+      "title": "The Art of the Safavids before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "First historical paragraphs"
+    },
+    {
+      "id": "met-isfahan",
+      "title": "Shah 'Abbas and the Arts of Isfahan",
+      "url": "https://www.metmuseum.org/essays/shah-cabbas-and-the-arts-of-isfahan",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "First historical paragraph"
+    },
+    {
+      "id": "met-ilkhanid",
+      "title": "The Art of the Ilkhanid Period (1256–1353)",
+      "url": "https://www.metmuseum.org/pt/essays/the-art-of-the-ilkhanid-period-1256-1353",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "English article served within Portuguese site navigation.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Opening historical paragraph"
+    },
+    {
+      "id": "iranica-cyrus",
+      "title": "Cyrus iv. The Cyrus cylinder",
+      "url": "https://www.iranicaonline.org/articles/cyrus-iv/",
+      "publisher": "Encyclopaedia Iranica",
+      "checkedAt": "2026-11-19",
+      "notes": "Muhammad A. Dandamayev; conquest of Babylon in 539 BCE. A royal inscription is a historically situated source, not a neutral account.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "The Cyrus cylinder, paragraphs 1–4"
+    },
+    {
+      "id": "iranica-isfahan",
+      "title": "Isfahan xi. School of Painting and Calligraphy",
+      "url": "https://www.iranicaonline.org/articles/isfahan-xi-school-of-painting-and-calligraphy/",
+      "publisher": "Encyclopaedia Iranica",
+      "checkedAt": "2026-11-19",
+      "notes": "Massumeh Farhad; dates the choice of capital to about 1597–98.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Opening paragraph"
+    },
+    {
+      "id": "iranica-ismail",
+      "title": "Esma'il I Safawi i. Biography",
+      "url": "https://www.iranicaonline.org/articles/esmail-i-safawi/esmail-i-safawi-i-biography/",
+      "publisher": "Encyclopaedia Iranica",
+      "checkedAt": "2026-11-19",
+      "notes": "Roger M. Savory; accession in 1501. Broad national-origin interpretations not imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Biography opening and accession narrative"
+    },
+    {
+      "id": "egypt-fatimid",
+      "title": "Fatimid dynasty",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/fatimids-dynasty",
+      "publisher": "Egyptian Ministry of Tourism and Antiquities",
+      "checkedAt": "2026-11-19",
+      "notes": "",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Main historical summary"
+    },
+    {
+      "id": "lacma-islamic",
+      "title": "Islamic Art Collection at LACMA",
+      "url": "https://www.lacma.org/islamic-art-collection-lacma",
+      "publisher": "Los Angeles County Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Supports Baghdad's foundation as Abbasid capital in 762.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Early Islamic Period: History"
+    },
+    {
+      "id": "archnet-umayyad",
+      "title": "Timeline: Umayyad (661–750)",
+      "url": "https://next.archnet.org/collections/2350",
+      "publisher": "Archnet / Aga Khan Documentation Center at MIT",
+      "checkedAt": "2026-11-19",
+      "notes": "Used for chronology, not the page's generalizations about cultures or religions.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Timeline overview and first two paragraphs"
+    },
+    {
+      "id": "vam-mughal",
+      "title": "The arts of the Mughal Empire",
+      "url": "https://www.vam.ac.uk/articles/the-arts-of-the-mughal-empire",
+      "publisher": "Victoria and Albert Museum",
+      "checkedAt": "2026-11-19",
+      "notes": "",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Opening historical overview"
+    },
+    {
+      "id": "bihar-nalanda",
+      "title": "History: Nalanda",
+      "url": "https://nalanda.nic.in/en/history/",
+      "publisher": "District Nalanda, Government of Bihar",
+      "checkedAt": "2026-11-19",
+      "notes": "",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "History of Nalanda, opening paragraphs"
+    },
+    {
+      "id": "bangla-somapura",
+      "title": "Somapura Mahavihara",
+      "url": "https://en.banglapedia.org/index.php/Somapura_Mahavihara",
+      "publisher": "Banglapedia / Asiatic Society of Bangladesh",
+      "checkedAt": "2026-11-19",
+      "notes": "AM Chowdhury. Records differing traditions concerning Dharmapala and Devapala; no invented foundation year.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Opening paragraphs and inscriptions discussion"
+    },
+    {
+      "id": "ntb-lumbini",
+      "title": "Lumbini",
+      "url": "https://trade.ntb.gov.np/tourist-destination/lumbini/",
+      "publisher": "Nepal Tourism Board",
+      "checkedAt": "2026-11-19",
+      "notes": "Used for Ashoka's pillar, not its conventional date for the Buddha's birth.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Sacred Garden paragraph"
+    },
+    {
+      "id": "orias-hajj",
+      "title": "Cairo, Jerusalem, Damascus, Medina, and Mecca: 1326",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/cairo-jerusalem-damascus-medina-and-mecca-1326",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "checkedAt": "2026-11-19",
+      "notes": "",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Damascus and Mecca sections"
+    },
+    {
+      "id": "orias-persia",
+      "title": "Iraq and Persia: 1326–1327",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/iraq-and-persia-1326-1327",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "checkedAt": "2026-11-19",
+      "notes": "",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "A Land Conquered by the Mongols; Baghdad"
+    },
+    {
+      "id": "orias-delhi",
+      "title": "Delhi: Capital of Muslim India, 1334–1341",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/delhi-capital-muslim-india-1334-1341",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "checkedAt": "2026-11-19",
+      "notes": "Approximate chronology; chapter titles are not exact arrival/departure dates.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Delhi and judicial employment discussion"
+    },
+    {
+      "id": "orias-islands",
+      "title": "Escape from Delhi to the Maldive Islands and Sri Lanka: 1341–1344",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/escape-delhi-maldive-islands-and-sri-lanka-1341-1344",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "checkedAt": "2026-11-19",
+      "notes": "Dates Delhi departure to 1341; Samuel Lee selection labels embassy 1342. Early-1340s stop years are approximate navigation dates.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Calicut and Maldives sections"
+    },
+    {
+      "id": "fordham-rihla",
+      "title": "Ibn Battuta: Travels in Asia and Africa, 1325–1354 (selections)",
+      "url": "https://sourcebooks.fordham.edu/source/1354-ibnbattuta.asp",
+      "publisher": "Fordham University, Internet Medieval Sourcebook",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary travel narrative in H. A. R. Gibb's 1929 translation, selected and hosted by Paul Halsall. A travel account needs critical interpretation.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Opening journey statement; pilgrimage account"
+    },
+    {
+      "id": "lee-delhi",
+      "title": "Ibn Battuta, In Delhi (Samuel Lee translation, 1829)",
+      "url": "https://franpritchett.com/00generallinks/ibnbatuta/05delhi.html",
+      "publisher": "Samuel Lee translation; selections edited by Frances W. Pritchett",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary narrative through an abridged 19th-century translation. Corroborates the account's content, not independent eyewitness testimony. Original paraphrase; no quoted passage imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "The emperor’s hospitality and generosity; The term as judge is cut short"
+    },
+    {
+      "id": "lee-calicut",
+      "title": "Ibn Battuta, Perils and Detours: Malabar (Samuel Lee translation, 1829)",
+      "url": "https://franpritchett.com/00generallinks/ibnbatuta/07china2.html",
+      "publisher": "Samuel Lee translation; selections edited by Frances W. Pritchett",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary narrative through an abridged 19th-century translation. Corroborates the account's content, not independent eyewitness testimony. Original paraphrase; no quoted passage imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "A terrible storm disrupts the China expedition"
+    },
+    {
+      "id": "lee-maldives",
+      "title": "Ibn Battuta, In the Maldives (Samuel Lee translation, 1829)",
+      "url": "https://franpritchett.com/00generallinks/ibnbatuta/08maldives.html",
+      "publisher": "Samuel Lee translation; selections edited by Frances W. Pritchett",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary narrative through an abridged 19th-century translation. Corroborates the account's content, not independent eyewitness testimony. Original paraphrase; no quoted passage imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Observations about the Maldives"
+    },
+    {
+      "id": "nam-rebellion",
+      "title": "Decisive events of the Indian Rebellion",
+      "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny",
+      "publisher": "National Army Museum",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum account of 1857; its terminology is not adopted as a judgment on the rebellion.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Delhi section, September 1857 chronology"
+    },
+    {
+      "id": "independence-act",
+      "title": "Indian Independence Act 1947",
+      "url": "https://www.legislation.gov.uk/ukpga/1947/30/pdfs/ukpga_19470030_en.pdf",
+      "publisher": "UK Parliament / The National Archives",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary legislation. Legal evidence for creation of dominions; not a complete social history of Partition.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Section 1, The new Dominions; PDF page 3"
+    },
+    {
+      "id": "parliament-independence",
+      "title": "The Raj and independence, 1914–47",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-raj-and-independence-1914-47/",
+      "publisher": "UK Parliament",
+      "checkedAt": "2026-11-19",
+      "notes": "",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Independence section"
+    },
+    {
+      "id": "unesco-red-fort",
+      "title": "Red Fort Complex",
+      "url": "https://whc.unesco.org/en/list/231/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Mughal architectural and dynastic context beginning in 1526.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Outstanding Universal Value, first paragraph"
+    },
+    {
+      "id": "nms-delhi-objects",
+      "title": "Baggage and Belonging Catalogue 2020: National Army Museum",
+      "url": "https://files.nms.ac.uk/production/Documents/Research/Baggage-and-Belonging-Catalogues/national-army-museum-hr.pdf?dm=1720792604",
+      "publisher": "National Museums Scotland / National Army Museum",
+      "checkedAt": "2026-11-19",
+      "notes": "Catalogue record NAM.1963.10.242.1 identifies the storming of Delhi, 14 September 1857. Shares National Army Museum provenance with its overview; not independent eyewitness corroboration.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Accession NAM.1963.10.242.1, Keys to the Kashmir Gate; PDF page 43"
+    },
+    {
+      "id": "up-taj",
+      "title": "Creation History of the Taj Mahal",
+      "url": "https://tajmahal.gov.in/creation-history-of-taj-mahal.aspx",
+      "publisher": "Department of Tourism, Government of Uttar Pradesh",
+      "checkedAt": "2026-11-19",
+      "notes": "Distinguishes main mausoleum completion in 1648 from outlying buildings and gardens in 1653. No other architectural claims imported.",
+      "verification": "Reopened during learning enrichment on 2026-11-19; relevant passage checked.",
+      "locator": "Creation, opening paragraph"
+    }
+  ],
+  "stories": [
+    {
+      "id": "moving-capitals",
+      "title": "When the center moved",
+      "subtitle": "Damascus · Baghdad · Samarra · Cairo",
+      "theme": "Power & cities",
+      "minutes": 4,
+      "description": "Follow four capitals across three centuries. A new seat of government changed where rulers built, commissioned art, and displayed authority.",
+      "takeaway": "A shared religious world could contain changing—and competing—political centers.",
+      "sourceIds": [
+        "met-umayyad",
+        "met-abbasid",
+        "met-fatimid",
+        "unesco-samarra",
+        "egypt-fatimid"
+      ],
+      "stops": [
+        {
+          "year": 661,
+          "placeId": "damascus",
+          "eventId": "umayyad-damascus",
+          "title": "A capital in Syria",
+          "description": "Under the Umayyads, Damascus became the center of a far-reaching caliphate. Begin here, then watch the center of Abbasid government move east. A change of dynasty was also a change in the geography of power.",
+          "question": "Which direction will the next capital take you?",
+          "sourceIds": [
+            "met-umayyad",
+            "archnet-umayyad"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 762,
+          "placeId": "baghdad",
+          "eventId": "baghdad-founded",
+          "title": "A new city for a new dynasty",
+          "description": "The Abbasids established Baghdad as their capital in 762. The move from Syria to Iraq gave the new dynasty a different urban center. Find the Tigris, then compare Baghdad with the earlier capital at Damascus.",
+          "question": "What does a newly founded capital let a ruler communicate?",
+          "sourceIds": [
+            "met-abbasid",
+            "lacma-islamic"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 836,
+          "placeId": "samarra",
+          "eventId": "samarra-capital",
+          "title": "A court farther up the Tigris",
+          "description": "Samarra became the Abbasid court’s seat from 836 to 892. Its surviving buildings help historians study a period whose architecture is less visible in Baghdad. The map pin is only a reference point for a much larger archaeological landscape.",
+          "question": "Why might archaeology tell a different story from a colored territory?",
+          "sourceIds": [
+            "unesco-samarra",
+            "met-abbasid"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 969,
+          "placeId": "cairo",
+          "eventId": "cairo-founded",
+          "title": "Another center of power",
+          "description": "After taking Egypt in 969, the Fatimids founded Cairo north of Fustat. Cairo’s emergence reminds us that the history of Muslim societies cannot be reduced to a single succession of capitals.",
+          "question": "Does a new capital mean the older city stopped mattering?",
+          "sourceIds": [
+            "egypt-fatimid",
+            "met-fatimid"
+          ],
+          "datePrecision": "year"
+        }
+      ]
+    },
+    {
+      "id": "three-courts",
+      "title": "Three courts, one connected world",
+      "subtitle": "Ottoman · Safavid · Mughal",
+      "theme": "Empires & art",
+      "minutes": 5,
+      "description": "Trace the cities of three imperial traditions, then pause on the 1600 map to see their worlds together.",
+      "takeaway": "Contemporary empires had distinct centers; a single date can reveal more than a sequence of rulers.",
+      "sourceIds": [
+        "met-ottoman",
+        "met-safavid",
+        "vam-mughal",
+        "met-isfahan",
+        "unesco-agra"
+      ],
+      "stops": [
+        {
+          "year": 1453,
+          "placeId": "istanbul",
+          "eventId": "ottoman-constantinople",
+          "title": "Constantinople becomes an Ottoman capital",
+          "description": "The Ottoman conquest of Constantinople in 1453 made the city an imperial center. Keep its western position in mind as this story turns toward Iran and northern India.",
+          "question": "How does this city’s position compare with the next two centers?",
+          "sourceIds": [
+            "met-ottoman",
+            "lacma-islamic"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1501,
+          "placeId": "tabriz",
+          "eventId": "safavid-tabriz",
+          "title": "A Safavid beginning at Tabriz",
+          "description": "Ismail I’s accession in 1501 marks the start of Safavid rule. Tabriz gives this dynasty a different starting point from the later capital at Isfahan.",
+          "question": "Can a dynasty’s first capital explain all of its later geography?",
+          "sourceIds": [
+            "met-safavid",
+            "iranica-ismail"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1526,
+          "placeId": "delhi",
+          "eventId": "mughal-delhi",
+          "title": "Babur enters the north Indian story",
+          "description": "Babur seized the Delhi Sultanate from Ibrahim Lodi in 1526. Delhi is the political-center marker here, not a pin claiming the precise location of the battle.",
+          "question": "What is the difference between an event’s battlefield and the political center it affected?",
+          "sourceIds": [
+            "vam-mughal",
+            "unesco-red-fort"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1598,
+          "placeId": "isfahan",
+          "eventId": "isfahan-capital",
+          "title": "A capital reshaped",
+          "description": "Around 1597–1598, Shah Abbas selected Isfahan as the Safavid capital. Its new civic and ceremonial spaces made imperial authority visible in the city. Move to the 1600 map afterward to compare neighboring powers at one dated moment.",
+          "question": "What can a city’s buildings tell us that a border cannot?",
+          "sourceIds": [
+            "met-isfahan",
+            "iranica-isfahan"
+          ],
+          "datePrecision": "circa 1597–1598; 1598 is the navigation anchor",
+          "displayDate": "c. 1597–1598 CE",
+          "earliestYear": 1597,
+          "latestYear": 1598
+        },
+        {
+          "year": 1648,
+          "placeId": "agra",
+          "eventId": "taj-mahal",
+          "title": "Power, memory, and craftsmanship",
+          "description": "At Agra, Shah Jahan commissioned the Taj Mahal for Mumtaz Mahal. The principal mausoleum was complete by 1648; the wider complex took longer. This is a building milestone, not a new territorial map.",
+          "question": "Why should a monument’s completion date stay separate from the map’s reference date?",
+          "sourceIds": [
+            "unesco-agra",
+            "up-taj"
+          ],
+          "datePrecision": "year"
+        }
+      ]
+    },
+    {
+      "id": "traveler-world",
+      "title": "A world seen by a traveler",
+      "subtitle": "Pilgrimage · service · sea crossings",
+      "theme": "People & journeys",
+      "minutes": 4,
+      "description": "Read four moments from Ibn Battuta’s account. Notice how a pilgrimage becomes a career, then an uncertain voyage.",
+      "takeaway": "A traveler’s account is a viewpoint. Its route, chronology, and judgments require interpretation.",
+      "sourceIds": [
+        "orias-hajj",
+        "fordham-rihla",
+        "orias-delhi",
+        "lee-delhi",
+        "orias-islands",
+        "lee-calicut",
+        "lee-maldives"
+      ],
+      "stops": [
+        {
+          "year": 1326,
+          "placeId": "mecca",
+          "eventId": "ibn-hajj",
+          "title": "The journey’s first purpose",
+          "description": "Ibn Battuta describes setting out from Morocco to make the pilgrimage. In 1326 he reached Mecca after traveling through Egypt and the Levant. His route connects sacred places across political boundaries.",
+          "question": "What makes a pilgrimage route different from an empire’s border?",
+          "sourceIds": [
+            "orias-hajj",
+            "fordham-rihla"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1334,
+          "placeId": "delhi",
+          "eventId": "ibn-delhi",
+          "title": "A traveler becomes a judge",
+          "description": "In Delhi, his account describes service as a judge under Muhammad bin Tughluq. The year shown follows a teaching chronology; his exact arrival date remains unresolved in this atlas.",
+          "question": "How might employment at a court shape what a traveler writes about it?",
+          "sourceIds": [
+            "orias-delhi",
+            "lee-delhi"
+          ],
+          "datePrecision": "circa 1334; exact arrival chronology unresolved"
+        },
+        {
+          "year": 1342,
+          "placeId": "kozhikode",
+          "title": "Plans meet the sea",
+          "description": "At Calicut, now Kozhikode, Ibn Battuta’s account describes a storm disrupting his intended voyage to China. A port connects people and ambitions, but a line on a map cannot show every delay or reversal.",
+          "question": "What disappears when a complicated journey becomes one smooth line?",
+          "sourceIds": [
+            "orias-islands",
+            "lee-calicut"
+          ],
+          "datePrecision": "early 1340s; 1342 is an approximate navigation anchor"
+        },
+        {
+          "year": 1343,
+          "placeId": "male",
+          "title": "The limits of a visitor’s authority",
+          "description": "In the Maldives, he describes judicial work and resistance to some of his demands. Read those judgments as the perspective of a visiting jurist, rather than a complete portrait of island society.",
+          "question": "Whose perspective is missing from this account?",
+          "sourceIds": [
+            "orias-islands",
+            "lee-maldives"
+          ],
+          "datePrecision": "early 1340s; 1343 is an approximate navigation anchor"
+        }
+      ]
+    },
+    {
+      "id": "places-of-learning",
+      "title": "Landscapes of learning",
+      "subtitle": "Lumbini · Nalanda · Paharpur",
+      "theme": "Knowledge & belief",
+      "minutes": 3,
+      "description": "Look beyond capitals to monuments and monastic institutions in South Asia. These places give the region a history longer and more varied than any one empire.",
+      "takeaway": "Historical significance can survive changes in rulers, institutions, and the way a place is remembered.",
+      "sourceIds": [
+        "unesco-lumbini",
+        "ntb-lumbini",
+        "unesco-nalanda",
+        "bihar-nalanda",
+        "unesco-paharpur",
+        "bangla-somapura"
+      ],
+      "stops": [
+        {
+          "year": -249,
+          "placeId": "lumbini",
+          "eventId": "ashoka-lumbini",
+          "title": "A ruler leaves an inscription",
+          "description": "Ashoka’s visit to Lumbini and its commemorative pillar are conventionally dated to 249 BCE. The inscription is a different kind of historical evidence from a later traveler’s narrative.",
+          "question": "What can an inscription establish—and what can it leave unanswered?",
+          "sourceIds": [
+            "unesco-lumbini",
+            "ntb-lumbini"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 600,
+          "placeId": "nalanda",
+          "title": "An institution, not a single event",
+          "description": "Nalanda’s remains include spaces for worship, residence, and teaching. Sources describe it as a center of learning from the fifth century into the medieval period. The year 600 is a viewing anchor within that history, not its foundation date.",
+          "question": "Why is a long-lived institution difficult to represent with one year?",
+          "sourceIds": [
+            "unesco-nalanda",
+            "bihar-nalanda"
+          ],
+          "datePrecision": "editorial viewing anchor; not a dated event"
+        },
+        {
+          "year": 900,
+          "placeId": "paharpur",
+          "title": "Patronage and a monastery",
+          "description": "Somapura Mahavihara at Paharpur was a major Buddhist institution associated with the Pala rulers. Foundation traditions differ; this atlas does not turn them into a single exact date. The year 900 is a viewing anchor.",
+          "question": "How could changing patrons affect a center of learning?",
+          "sourceIds": [
+            "unesco-paharpur",
+            "bangla-somapura"
+          ],
+          "datePrecision": "editorial viewing anchor; not a foundation date"
+        }
+      ]
+    },
+    {
+      "id": "delhi-through-time",
+      "title": "One city, changing worlds",
+      "subtitle": "Four moments in Delhi",
+      "theme": "Cities & change",
+      "minutes": 4,
+      "description": "Return to the same place at four dates. Keep the location steady while rulers, institutions, and political meanings change.",
+      "takeaway": "A city is more than the name of the polity that surrounds its marker.",
+      "sourceIds": [
+        "orias-delhi",
+        "lee-delhi",
+        "vam-mughal",
+        "unesco-red-fort",
+        "nam-rebellion",
+        "nms-delhi-objects",
+        "independence-act",
+        "parliament-independence"
+      ],
+      "stops": [
+        {
+          "year": 1334,
+          "placeId": "delhi",
+          "eventId": "ibn-delhi",
+          "title": "The sultan’s court",
+          "description": "Ibn Battuta’s account places him in the service of Muhammad bin Tughluq during the 1330s. It gives a visitor’s view of the city’s courtly world. The selected year is approximate.",
+          "question": "What kind of city do you see when the source is a court visitor?",
+          "sourceIds": [
+            "orias-delhi",
+            "lee-delhi"
+          ],
+          "datePrecision": "circa 1334; exact arrival chronology unresolved"
+        },
+        {
+          "year": 1526,
+          "placeId": "delhi",
+          "eventId": "mughal-delhi",
+          "title": "A change of dynasty",
+          "description": "Babur’s seizure of the Delhi Sultanate in 1526 began Mughal rule. The place remains recognizable on the map while the political story changes.",
+          "question": "What remains continuous when a ruling dynasty changes?",
+          "sourceIds": [
+            "vam-mughal",
+            "unesco-red-fort"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1857,
+          "placeId": "delhi",
+          "eventId": "delhi-1857",
+          "title": "A city in rebellion",
+          "description": "British forces stormed Delhi in September 1857 during the uprising. This marker selects one city and episode within a much wider conflict; it cannot stand for everyone’s experience of the rebellion.",
+          "question": "Whose experiences would you seek beyond a military account?",
+          "sourceIds": [
+            "nam-rebellion",
+            "nms-delhi-objects"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1947,
+          "placeId": "delhi",
+          "eventId": "independence-partition",
+          "title": "Independence and Partition",
+          "description": "The Indian Independence Act provided for the independent dominions of India and Pakistan. Delhi is a regional navigation anchor, not the whole geography of Partition. Territory borders stay hidden at this date. An optional 1914 reference map is available, but it does not reconstruct 1947 borders.",
+          "question": "Can the map shown here answer a question about the 1947 boundary?",
+          "sourceIds": [
+            "independence-act",
+            "parliament-independence"
+          ],
+          "datePrecision": "year"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "hajj-1326",
+      "title": "Pilgrimage toward Mecca",
+      "kind": "documented journey sequence",
+      "fromYear": 1326,
+      "toYear": 1326,
+      "placeIds": [
+        "cairo",
+        "jerusalem",
+        "damascus",
+        "medina",
+        "mecca"
+      ],
+      "description": "Selected places in Ibn Battuta’s account of his first pilgrimage. The line makes the sequence visible; it omits many stops.",
+      "geometryNote": "Schematic links between selected reference points, not reconstructed roads or measured travel distances.",
+      "sourceIds": [
+        "orias-hajj",
+        "fordham-rihla"
+      ]
+    },
+    {
+      "id": "ocean-1340s",
+      "title": "From court to Indian Ocean",
+      "kind": "documented journey sequence",
+      "fromYear": 1341,
+      "toYear": 1344,
+      "placeIds": [
+        "delhi",
+        "kozhikode",
+        "male"
+      ],
+      "description": "Selected stops from a disrupted embassy voyage and later island visits. Dates follow the atlas’s approximate early-1340s chronology.",
+      "geometryNote": "Schematic sequence only; lines are not navigable sea lanes. Intervening travel and Sri Pada’s unlocated stop are omitted.",
+      "sourceIds": [
+        "orias-islands",
+        "lee-calicut",
+        "lee-maldives"
+      ]
+    },
+    {
+      "id": "capital-connections",
+      "title": "Changing centers of government",
+      "kind": "thematic comparison",
+      "fromYear": 661,
+      "toYear": 969,
+      "placeIds": [
+        "damascus",
+        "baghdad",
+        "samarra",
+        "cairo"
+      ],
+      "description": "Compare four capitals over time. These connections are a reading guide, not a claim that one continuous empire moved along this line.",
+      "geometryNote": "Editorial links between cities in the guided story; not a travel or trade route.",
+      "sourceIds": [
+        "met-umayyad",
+        "met-abbasid",
+        "met-fatimid",
+        "egypt-fatimid"
+      ]
+    },
+    {
+      "id": "three-courts-network",
+      "title": "Ottoman, Safavid, and Mughal cities",
+      "kind": "thematic comparison",
+      "fromYear": 1598,
+      "toYear": 1648,
+      "placeIds": [
+        "istanbul",
+        "isfahan",
+        "delhi",
+        "agra"
+      ],
+      "description": "An invitation to compare imperial cities across the region. The cities belong to distinct political histories.",
+      "geometryNote": "Editorial comparison links, not evidence of a direct road, embassy, or trade route between each pair.",
+      "sourceIds": [
+        "met-ottoman",
+        "met-isfahan",
+        "vam-mughal",
+        "unesco-agra"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "capital-762",
+      "question": "Which city became the new Abbasid capital in 762?",
+      "options": [
+        "Cairo",
+        "Baghdad",
+        "Delhi"
+      ],
+      "answerIndex": 1,
+      "explanation": "Baghdad was founded as the new Abbasid capital in 762. Compare its position in Iraq with the earlier Umayyad center at Damascus.",
+      "year": 762,
+      "placeId": "baghdad",
+      "eventId": "baghdad-founded",
+      "sourceIds": [
+        "met-abbasid",
+        "lacma-islamic"
+      ]
+    },
+    {
+      "id": "samarra-court",
+      "question": "Which city hosted the Abbasid court between 836 and 892?",
+      "options": [
+        "Samarra",
+        "Tabriz",
+        "Agra"
+      ],
+      "answerIndex": 0,
+      "explanation": "Samarra’s capital period is documented as 836–892. Its archaeological remains reveal more than a territory color can.",
+      "year": 836,
+      "placeId": "samarra",
+      "eventId": "samarra-capital",
+      "sourceIds": [
+        "unesco-samarra",
+        "met-abbasid"
+      ]
+    },
+    {
+      "id": "cairo-dynasty",
+      "question": "Which dynasty founded Cairo after taking Egypt in 969?",
+      "options": [
+        "Mughals",
+        "Ottomans",
+        "Fatimids"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Fatimids founded Cairo in 969. This is one reason to follow several political centers instead of a single line of succession.",
+      "year": 969,
+      "placeId": "cairo",
+      "eventId": "cairo-founded",
+      "sourceIds": [
+        "egypt-fatimid",
+        "met-fatimid"
+      ]
+    },
+    {
+      "id": "isfahan-capital",
+      "question": "Which city became Shah Abbas’s capital around 1597–1598?",
+      "options": [
+        "Isfahan",
+        "Damascus",
+        "Kabul"
+      ],
+      "answerIndex": 0,
+      "explanation": "Isfahan became the Safavid capital around 1597–1598. The atlas uses 1598 as its navigation anchor while retaining the date range.",
+      "year": 1598,
+      "placeId": "isfahan",
+      "eventId": "isfahan-capital",
+      "sourceIds": [
+        "met-isfahan",
+        "iranica-isfahan"
+      ]
+    },
+    {
+      "id": "taj-date",
+      "question": "What does the year 1648 identify in the Taj Mahal record?",
+      "options": [
+        "Completion of every building in the complex",
+        "Completion of the principal mausoleum",
+        "The founding of Mughal rule"
+      ],
+      "answerIndex": 1,
+      "explanation": "The principal mausoleum was complete by 1648; the wider complex developed over a longer period.",
+      "year": 1648,
+      "placeId": "agra",
+      "eventId": "taj-mahal",
+      "sourceIds": [
+        "unesco-agra",
+        "up-taj"
+      ]
+    },
+    {
+      "id": "traveler-purpose",
+      "question": "What purpose did Ibn Battuta give for leaving Morocco at the start of his travels?",
+      "options": [
+        "Conquering Delhi",
+        "Founding a port",
+        "Making the pilgrimage"
+      ],
+      "answerIndex": 2,
+      "explanation": "His account describes setting out to visit Mecca and Medina. Later court service and sea journeys were parts of a much longer life of travel.",
+      "year": 1326,
+      "placeId": "mecca",
+      "eventId": "ibn-hajj",
+      "sourceIds": [
+        "orias-hajj",
+        "fordham-rihla"
+      ]
+    },
+    {
+      "id": "learning-nalanda",
+      "question": "Which place in this atlas was a monastic and teaching institution?",
+      "options": [
+        "Nalanda",
+        "The Taj Mahal",
+        "The court at Tabriz"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nalanda combined religious and educational life. The date 600 in its story is a viewing anchor, not a claimed foundation year.",
+      "year": 600,
+      "placeId": "nalanda",
+      "sourceIds": [
+        "unesco-nalanda",
+        "bihar-nalanda"
+      ]
+    },
+    {
+      "id": "two-dates",
+      "question": "At an event dated 1947, you choose “Show 1914 CE reference”. What do those borders represent?",
+      "options": [
+        "Reconstructed 1947 borders",
+        "The latest available earlier map, dated 1914",
+        "The exact borders on the event’s day"
+      ],
+      "answerIndex": 1,
+      "explanation": "Narrative dates and territorial evidence are separate. The atlas has a 1947 event but no accepted 1947 territory snapshot.",
+      "year": 1947,
+      "placeId": "delhi",
+      "eventId": "independence-partition",
+      "sourceIds": [
+        "independence-act",
+        "parliament-independence"
+      ]
+    },
+    {
+      "id": "route-evidence",
+      "question": "What do dashed connections between selected journey stops establish?",
+      "options": [
+        "The sequence shown by this atlas",
+        "The exact road traveled",
+        "The distance sailed"
+      ],
+      "answerIndex": 0,
+      "explanation": "The lines are schematic. They omit intermediate stops and do not reconstruct roads, sea lanes, or distances.",
+      "year": 1342,
+      "placeId": "kozhikode",
+      "sourceIds": [
+        "orias-islands",
+        "lee-calicut"
+      ]
+    },
+    {
+      "id": "traveler-viewpoint",
+      "question": "How should we read Ibn Battuta’s judgments about Maldivian customs?",
+      "options": [
+        "As the view of every island resident",
+        "As a modern census",
+        "As the perspective of a visiting jurist"
+      ],
+      "answerIndex": 2,
+      "explanation": "The account preserves his viewpoint and describes resistance to some of his demands. Other voices are needed for a fuller history.",
+      "year": 1343,
+      "placeId": "male",
+      "sourceIds": [
+        "orias-islands",
+        "lee-maldives"
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "ancient-worlds",
+      "title": "Ancient worlds",
+      "fromYear": -600,
+      "toYear": -1,
+      "kind": "editorial period",
+      "summary": "Begin with the region’s long history before Islam: Achaemenid rule at Babylon and Ashoka’s commemorative presence at Lumbini are two selected anchors.",
+      "prompt": "Compare the different kinds of evidence left by conquest and commemoration.",
+      "sourceIds": [
+        "met-achaemenid",
+        "iranica-cyrus",
+        "unesco-lumbini"
+      ]
+    },
+    {
+      "id": "learning-landscapes",
+      "title": "Cities, monasteries, connections",
+      "fromYear": 1,
+      "toYear": 600,
+      "kind": "editorial period",
+      "summary": "The map’s political outlines tell only one part of the story. Nalanda’s educational life and Bamiyan’s Buddhist heritage point toward other ways to understand the region.",
+      "prompt": "Open a place record and look for what survives beyond a dynasty.",
+      "sourceIds": [
+        "unesco-nalanda",
+        "bihar-nalanda",
+        "unesco-bamiyan"
+      ]
+    },
+    {
+      "id": "caliphal-centers",
+      "title": "New centers of power",
+      "fromYear": 601,
+      "toYear": 1000,
+      "kind": "editorial period",
+      "summary": "Damascus, Baghdad, Samarra, and Cairo anchor changing governments. In South Asia, monastic institutions such as Somapura offer a different view of patronage and learning.",
+      "prompt": "Follow the capitals story, then compare it with Paharpur.",
+      "sourceIds": [
+        "met-umayyad",
+        "met-abbasid",
+        "met-fatimid",
+        "unesco-paharpur"
+      ]
+    },
+    {
+      "id": "traveling-world",
+      "title": "Across courts and seas",
+      "fromYear": 1001,
+      "toYear": 1452,
+      "kind": "editorial period",
+      "summary": "The capture of Baghdad in 1258 and Ibn Battuta’s later travels reveal political rupture alongside continuing urban and long-distance connections.",
+      "prompt": "Compare the Baghdad event with the traveler’s later description.",
+      "sourceIds": [
+        "met-ilkhanid",
+        "orias-persia",
+        "fordham-rihla"
+      ]
+    },
+    {
+      "id": "imperial-courts",
+      "title": "Ottoman, Safavid, Mughal",
+      "fromYear": 1453,
+      "toYear": 1700,
+      "kind": "editorial period",
+      "summary": "Several imperial traditions coexist across the map. Cities, workshops, and monuments make their histories tangible without reducing them to territorial size.",
+      "prompt": "Start with the 1600 snapshot and compare three courts.",
+      "sourceIds": [
+        "met-ottoman",
+        "met-safavid",
+        "vam-mughal"
+      ]
+    },
+    {
+      "id": "colonial-change",
+      "title": "Empire and resistance",
+      "fromYear": 1701,
+      "toYear": 1913,
+      "kind": "editorial period",
+      "summary": "The atlas’s late-period narrative is selective. Delhi’s 1857 episode offers one entry into rebellion and colonial power; it does not stand for the whole region.",
+      "prompt": "Ask whose perspective each source represents.",
+      "sourceIds": [
+        "nam-rebellion",
+        "nms-delhi-objects"
+      ]
+    },
+    {
+      "id": "independence",
+      "title": "Toward independence",
+      "fromYear": 1914,
+      "toYear": 1947,
+      "kind": "editorial period",
+      "summary": "The timeline reaches Independence and Partition in 1947. No territory reconstruction is available for that date; the optional 1914 reference does not represent the later boundary settlement.",
+      "prompt": "Keep the narrative year and territory reference year separate.",
+      "sourceIds": [
+        "independence-act",
+        "parliament-independence"
+      ]
+    }
+  ]
+}

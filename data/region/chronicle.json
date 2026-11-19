@@ -1,0 +1,3481 @@
+{
+  "meta": {
+    "title": "Middle East and South Asia: selected historical records",
+    "scope": {
+      "fromYear": -600,
+      "toYear": 1947
+    },
+    "checkedAt": "2026-11-19",
+    "reviewStatus": "Agent source check completed for the cited excerpts; human scholarly review pending.",
+    "coverage": "Selected records, not a complete regional history. Thimphu remains a modern reference location awaiting a historical narrative. Added coverage spans early Islamic transitions and six late-period city anchors; substantial chronological and regional gaps remain.",
+    "dateConvention": "BCE years are negative; there is no year zero. Null history dates mean no precise range asserted. Approximate journey years are navigation aids, not exact arrivals.",
+    "historySemantics": "History entries describe selected episodes. Their dates do not define the full existence of the place, the validity span of its name, or continuous political control.",
+    "coordinateConvention": "Coordinates are [longitude, latitude]. Modern city reference points and UNESCO property reference points are distinguished in each record. Unknown points remain null.",
+    "enrichment": {
+      "checkedAt": "2026-11-19",
+      "addedEvents": 11,
+      "addedSources": 14,
+      "note": "Expanded selected narratives; no new polygons, coordinates, or claims of complete chronology. Broad cultural periods carry explicit editorial navigation anchors. Existing records and evidence retained."
+    },
+    "accuracyUpgrade": {
+      "checkedAt": "2026-11-19",
+      "addedEvents": 16,
+      "addedSources": 34,
+      "eventIds": [
+        "hijra-medina",
+        "abbasid-transition",
+        "buyid-baghdad",
+        "seljuq-baghdad",
+        "ayyubid-egypt",
+        "delhi-sultanate-emerges",
+        "raziyya-delhi",
+        "mamluk-egypt-emerges",
+        "lahore-ranjit-singh-1799",
+        "istanbul-gulhane-1839",
+        "istanbul-constitution-1876",
+        "karachi-port-trust-1887",
+        "dhaka-provincial-capital-1905",
+        "tabriz-constitutional-resistance-1908",
+        "cairo-women-protests-1919",
+        "dhaka-university-opens-1921"
+      ],
+      "note": "Claim-level source links and dependency notes added for this batch. Existing coordinate values, aliases, history episodes, and territory geometry retained. Broad dates remain ranges or centuries; year is only the navigation anchor. No new historical name-validity range inferred."
+    }
+  },
+  "sources": [
+    {
+      "id": "ne-places",
+      "title": "Natural Earth 1:50m populated places, v5.1.2",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_populated_places_simple.geojson",
+      "publisher": "Natural Earth",
+      "checkedAt": "2026-11-19",
+      "notes": "Only point geometry and names used. Version-tagged source; modern reference positions, not historical city limits. Administrative and sovereignty attributes excluded.",
+      "license": "Public domain"
+    },
+    {
+      "id": "unesco-babylon",
+      "title": "Babylon",
+      "url": "https://whc.unesco.org/en/list/278/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-persepolis",
+      "title": "Persepolis",
+      "url": "https://whc.unesco.org/en/list/114/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-samarra",
+      "title": "Samarra Archaeological City",
+      "url": "https://whc.unesco.org/en/list/276/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-damascus",
+      "title": "Ancient City of Damascus",
+      "url": "https://whc.unesco.org/en/list/20/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-jerusalem",
+      "title": "Old City of Jerusalem and its Walls",
+      "url": "https://whc.unesco.org/en/list/148/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-istanbul",
+      "title": "Historic Areas of Istanbul",
+      "url": "https://whc.unesco.org/en/list/356/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-bamiyan",
+      "title": "Cultural Landscape and Archaeological Remains of the Bamiyan Valley",
+      "url": "https://whc.unesco.org/en/list/208/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-taxila",
+      "title": "Taxila",
+      "url": "https://whc.unesco.org/en/list/139/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-lahore",
+      "title": "Fort and Shalamar Gardens in Lahore",
+      "url": "https://whc.unesco.org/en/list/171/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-agra",
+      "title": "Taj Mahal",
+      "url": "https://whc.unesco.org/en/list/252/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-nalanda",
+      "title": "Archaeological Site of Nalanda Mahavihara at Nalanda, Bihar",
+      "url": "https://whc.unesco.org/en/list/1502/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-paharpur",
+      "title": "Ruins of the Buddhist Vihara at Paharpur",
+      "url": "https://whc.unesco.org/en/list/322/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-kathmandu",
+      "title": "Kathmandu Valley",
+      "url": "https://whc.unesco.org/en/list/121/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-lumbini",
+      "title": "Lumbini, the Birthplace of the Lord Buddha",
+      "url": "https://whc.unesco.org/en/list/666/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "unesco-anuradhapura",
+      "title": "Sacred City of Anuradhapura",
+      "url": "https://whc.unesco.org/en/list/200/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Institutional description; original short paraphrase only. No imagery or third-party prose imported."
+    },
+    {
+      "id": "met-achaemenid",
+      "title": "The Achaemenid Persian Empire (550–330 B.C.)",
+      "url": "https://www.metmuseum.org/essays/the-achaemenid-persian-empire-550-330-b-c",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased."
+    },
+    {
+      "id": "met-abbasid",
+      "title": "The Art of the Abbasid Period (750–1258)",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased.",
+      "locator": "Opening historical paragraph: Abbasid succession in 750, movement of political focus from Syria to Iraq, Baghdad foundation in 762.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Existing chronicle source rechecked and supplied with additional metadata. Original factual paraphrase only; no images or source prose reproduced.",
+      "evidenceFamily": "Museum historical synthesis",
+      "relationshipNote": "Uses the conventional dynasty boundary 750. It does not contradict the separate 749 proclamation claim and is not treated as an independent primary witness."
+    },
+    {
+      "id": "met-umayyad",
+      "title": "The Art of the Umayyad Period (661–750)",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased."
+    },
+    {
+      "id": "met-fatimid",
+      "title": "The Art of the Fatimid Period (909–1171)",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased."
+    },
+    {
+      "id": "met-ottoman",
+      "title": "The Art of the Ottomans before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased."
+    },
+    {
+      "id": "met-safavid",
+      "title": "The Art of the Safavids before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased."
+    },
+    {
+      "id": "met-isfahan",
+      "title": "Shah 'Abbas and the Arts of Isfahan",
+      "url": "https://www.metmuseum.org/essays/shah-cabbas-and-the-arts-of-isfahan",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased."
+    },
+    {
+      "id": "met-mughal",
+      "title": "The Art of the Mughals before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum essay checked; prose paraphrased."
+    },
+    {
+      "id": "met-ilkhanid",
+      "title": "The Art of the Ilkhanid Period (1256–1353)",
+      "url": "https://www.metmuseum.org/pt/essays/the-art-of-the-ilkhanid-period-1256-1353",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "English article served within Portuguese site navigation."
+    },
+    {
+      "id": "iranica-cyrus",
+      "title": "Cyrus iv. The Cyrus cylinder",
+      "url": "https://www.iranicaonline.org/articles/cyrus-iv/",
+      "publisher": "Encyclopaedia Iranica",
+      "checkedAt": "2026-11-19",
+      "notes": "Muhammad A. Dandamayev; conquest of Babylon in 539 BCE. A royal inscription is a historically situated source, not a neutral account."
+    },
+    {
+      "id": "iranica-isfahan",
+      "title": "Isfahan xi. School of Painting and Calligraphy",
+      "url": "https://www.iranicaonline.org/articles/isfahan-xi-school-of-painting-and-calligraphy/",
+      "publisher": "Encyclopaedia Iranica",
+      "checkedAt": "2026-11-19",
+      "notes": "Massumeh Farhad; dates the choice of capital to about 1597–98."
+    },
+    {
+      "id": "iranica-ismail",
+      "title": "Esma'il I Safawi i. Biography",
+      "url": "https://www.iranicaonline.org/articles/esmail-i-safawi/esmail-i-safawi-i-biography/",
+      "publisher": "Encyclopaedia Iranica",
+      "checkedAt": "2026-11-19",
+      "notes": "Roger M. Savory; accession in 1501. Broad national-origin interpretations not imported."
+    },
+    {
+      "id": "egypt-fatimid",
+      "title": "Fatimid dynasty",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/fatimids-dynasty",
+      "publisher": "Egyptian Ministry of Tourism and Antiquities",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "egypt-ottoman",
+      "title": "The Ottoman Period",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/ottoman-period/",
+      "publisher": "Egyptian Ministry of Tourism and Antiquities",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "lacma-islamic",
+      "title": "Islamic Art Collection at LACMA",
+      "url": "https://www.lacma.org/islamic-art-collection-lacma",
+      "publisher": "Los Angeles County Museum of Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Supports Baghdad's foundation as Abbasid capital in 762."
+    },
+    {
+      "id": "archnet-umayyad",
+      "title": "Timeline: Umayyad (661–750)",
+      "url": "https://next.archnet.org/collections/2350",
+      "publisher": "Archnet / Aga Khan Documentation Center at MIT",
+      "checkedAt": "2026-11-19",
+      "notes": "Used for chronology, not the page's generalizations about cultures or religions."
+    },
+    {
+      "id": "vam-mughal",
+      "title": "The arts of the Mughal Empire",
+      "url": "https://www.vam.ac.uk/articles/the-arts-of-the-mughal-empire",
+      "publisher": "Victoria and Albert Museum",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "si-kabul",
+      "title": "A Passage to Kabul",
+      "url": "https://asia.si.edu/research/essays/v-a-passage-to-kabul/",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum interpretation of the Baburnama."
+    },
+    {
+      "id": "asi-taj",
+      "title": "World Heritage Sites – Agra – Taj Mahal",
+      "url": "https://asi.nic.in/pages/WorldHeritageAgra",
+      "publisher": "Archaeological Survey of India",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "bihar-nalanda",
+      "title": "History: Nalanda",
+      "url": "https://nalanda.nic.in/en/history/",
+      "publisher": "District Nalanda, Government of Bihar",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "bangla-somapura",
+      "title": "Somapura Mahavihara",
+      "url": "https://en.banglapedia.org/index.php/Somapura_Mahavihara",
+      "publisher": "Banglapedia / Asiatic Society of Bangladesh",
+      "checkedAt": "2026-11-19",
+      "notes": "AM Chowdhury. Records differing traditions concerning Dharmapala and Devapala; no invented foundation year."
+    },
+    {
+      "id": "bangla-musa",
+      "title": "Musa Khan",
+      "url": "https://en.banglapedia.org/index.php?title=Musa_Khan",
+      "publisher": "Banglapedia / Asiatic Society of Bangladesh",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "bangla-naib",
+      "title": "Naib Nazim",
+      "url": "https://en.banglapedia.org/index.php?title=Naib_Nazim",
+      "publisher": "Banglapedia / Asiatic Society of Bangladesh",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "ntb-lumbini",
+      "title": "Lumbini",
+      "url": "https://trade.ntb.gov.np/tourist-destination/lumbini/",
+      "publisher": "Nepal Tourism Board",
+      "checkedAt": "2026-11-19",
+      "notes": "Used for Ashoka's pillar, not its conventional date for the Buddha's birth."
+    },
+    {
+      "id": "ntb-kathmandu",
+      "title": "Kathmandu Durbar Square",
+      "url": "https://ntb.gov.np/kathmandu-durbar-square",
+      "publisher": "Nepal Tourism Board",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "uw-buddhism",
+      "title": "Buddhism in Northwest India",
+      "url": "https://depts.washington.edu/silkroad/exhibit/religion/buddhism/india_essay.html",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "checkedAt": "2026-11-19",
+      "notes": "Regional scholarly overview; Taxila's Buddhist monuments and transmission networks."
+    },
+    {
+      "id": "unesco-silkroads",
+      "title": "About the Silk Roads",
+      "url": "https://www.unesco.org/en/silk-roads/about-silk-roads",
+      "publisher": "UNESCO",
+      "checkedAt": "2026-11-19",
+      "notes": "Corroborates Bamiyan's Buddhist heritage; same publisher as the World Heritage entry."
+    },
+    {
+      "id": "orias-journey",
+      "title": "The Travels of Ibn Battuta: the journey",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "checkedAt": "2026-11-19",
+      "notes": "Teaching synthesis based on the Rihla and modern scholarship. Selection, chronology and omissions need scholarly review."
+    },
+    {
+      "id": "orias-hajj",
+      "title": "Cairo, Jerusalem, Damascus, Medina, and Mecca: 1326",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/cairo-jerusalem-damascus-medina-and-mecca-1326",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "orias-persia",
+      "title": "Iraq and Persia: 1326–1327",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/iraq-and-persia-1326-1327",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "orias-delhi",
+      "title": "Delhi: Capital of Muslim India, 1334–1341",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/delhi-capital-muslim-india-1334-1341",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "checkedAt": "2026-11-19",
+      "notes": "Approximate chronology; chapter titles are not exact arrival/departure dates."
+    },
+    {
+      "id": "orias-islands",
+      "title": "Escape from Delhi to the Maldive Islands and Sri Lanka: 1341–1344",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/escape-delhi-maldive-islands-and-sri-lanka-1341-1344",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "checkedAt": "2026-11-19",
+      "notes": "Dates Delhi departure to 1341; Samuel Lee selection labels embassy 1342. Early-1340s stop years are approximate navigation dates."
+    },
+    {
+      "id": "fordham-rihla",
+      "title": "Ibn Battuta: Travels in Asia and Africa, 1325–1354 (selections)",
+      "url": "https://sourcebooks.fordham.edu/source/1354-ibnbattuta.asp",
+      "publisher": "Fordham University, Internet Medieval Sourcebook",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary travel narrative in H. A. R. Gibb's 1929 translation, selected and hosted by Paul Halsall. A travel account needs critical interpretation."
+    },
+    {
+      "id": "lee-delhi",
+      "title": "Ibn Battuta, In Delhi (Samuel Lee translation, 1829)",
+      "url": "https://franpritchett.com/00generallinks/ibnbatuta/05delhi.html",
+      "publisher": "Samuel Lee translation; selections edited by Frances W. Pritchett",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary narrative through an abridged 19th-century translation. Corroborates the account's content, not independent eyewitness testimony. Original paraphrase; no quoted passage imported."
+    },
+    {
+      "id": "lee-calicut",
+      "title": "Ibn Battuta, Perils and Detours: Malabar (Samuel Lee translation, 1829)",
+      "url": "https://franpritchett.com/00generallinks/ibnbatuta/07china2.html",
+      "publisher": "Samuel Lee translation; selections edited by Frances W. Pritchett",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary narrative through an abridged 19th-century translation. Corroborates the account's content, not independent eyewitness testimony. Original paraphrase; no quoted passage imported."
+    },
+    {
+      "id": "lee-maldives",
+      "title": "Ibn Battuta, In the Maldives (Samuel Lee translation, 1829)",
+      "url": "https://franpritchett.com/00generallinks/ibnbatuta/08maldives.html",
+      "publisher": "Samuel Lee translation; selections edited by Frances W. Pritchett",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary narrative through an abridged 19th-century translation. Corroborates the account's content, not independent eyewitness testimony. Original paraphrase; no quoted passage imported."
+    },
+    {
+      "id": "lee-ceylon",
+      "title": "Ibn Battuta, In Ceylon (Samuel Lee translation, 1829)",
+      "url": "https://franpritchett.com/00generallinks/ibnbatuta/09ceylon.html",
+      "publisher": "Samuel Lee translation; selections edited by Frances W. Pritchett",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary narrative through an abridged 19th-century translation. Corroborates the account's content, not independent eyewitness testimony. Original paraphrase; no quoted passage imported."
+    },
+    {
+      "id": "nam-rebellion",
+      "title": "Decisive events of the Indian Rebellion",
+      "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny",
+      "publisher": "National Army Museum",
+      "checkedAt": "2026-11-19",
+      "notes": "Museum account of 1857; its terminology is not adopted as a judgment on the rebellion."
+    },
+    {
+      "id": "independence-act",
+      "title": "Indian Independence Act 1947",
+      "url": "https://www.legislation.gov.uk/ukpga/1947/30/pdfs/ukpga_19470030_en.pdf",
+      "publisher": "UK Parliament / The National Archives",
+      "checkedAt": "2026-11-19",
+      "notes": "Primary legislation. Legal evidence for creation of dominions; not a complete social history of Partition."
+    },
+    {
+      "id": "parliament-independence",
+      "title": "The Raj and independence, 1914–47",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-raj-and-independence-1914-47/",
+      "publisher": "UK Parliament",
+      "checkedAt": "2026-11-19",
+      "notes": ""
+    },
+    {
+      "id": "sl-overview",
+      "title": "Sri Lanka: country overview",
+      "url": "https://www.gov.lk/index.php/sri-lanka/country-overview",
+      "publisher": "Government of Sri Lanka",
+      "checkedAt": "2026-11-19",
+      "notes": "Used only for Anuradhapura's historical role; contemporary statistics and traditional origin stories excluded."
+    },
+    {
+      "id": "ne-places-10m",
+      "title": "Natural Earth 1:10m populated places, v5.1.2",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_populated_places_simple.geojson",
+      "publisher": "Natural Earth",
+      "checkedAt": "2026-11-19",
+      "license": "Public domain",
+      "notes": "Only modern city reference coordinates for Samarra and Bamian imported; no political attributes."
+    },
+    {
+      "id": "unesco-red-fort",
+      "title": "Red Fort Complex",
+      "url": "https://whc.unesco.org/en/list/231/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "notes": "Mughal architectural and dynastic context beginning in 1526."
+    },
+    {
+      "id": "nms-delhi-objects",
+      "title": "Baggage and Belonging Catalogue 2020: National Army Museum",
+      "url": "https://files.nms.ac.uk/production/Documents/Research/Baggage-and-Belonging-Catalogues/national-army-museum-hr.pdf?dm=1720792604",
+      "publisher": "National Museums Scotland / National Army Museum",
+      "checkedAt": "2026-11-19",
+      "notes": "Catalogue record NAM.1963.10.242.1 identifies the storming of Delhi, 14 September 1857. Shares National Army Museum provenance with its overview; not independent eyewitness corroboration."
+    },
+    {
+      "id": "up-taj",
+      "title": "Creation History of the Taj Mahal",
+      "url": "https://tajmahal.gov.in/creation-history-of-taj-mahal.aspx",
+      "publisher": "Department of Tourism, Government of Uttar Pradesh",
+      "checkedAt": "2026-11-19",
+      "notes": "Distinguishes main mausoleum completion in 1648 from outlying buildings and gardens in 1653. No other architectural claims imported."
+    },
+    {
+      "id": "met-byzantium",
+      "title": "Byzantium (ca. 330–1453)",
+      "url": "https://www.metmuseum.org/essays/byzantium-ca-330-1453",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "locator": "Sarah T. Brooks; opening historical paragraphs",
+      "evidenceFamily": "Museum synthesis",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "met-roman-empire",
+      "title": "The Roman Empire (27 B.C.–393 A.D.)",
+      "url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "locator": "Christopher S. Lightfoot; Diocletian, Constantine, and the Late Empire",
+      "evidenceFamily": "Museum synthesis; same publisher as met-byzantium",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "iranica-afghan-art",
+      "title": "Afghanistan ix. Pre-Islamic Art",
+      "url": "https://www.iranicaonline.org/articles/afghanistan-ix-preislamic-art/",
+      "publisher": "Encyclopaedia Iranica",
+      "checkedAt": "2026-11-19",
+      "locator": "Francine Tissot; paragraph beginning The rupestral monasteries",
+      "evidenceFamily": "Specialist archaeology synthesis",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "met-hagia-sophia",
+      "title": "Hagia Sophia, 532–37",
+      "url": "https://www.metmuseum.org/essays/hagia-sophia-532-37",
+      "publisher": "The Metropolitan Museum of Art",
+      "checkedAt": "2026-11-19",
+      "locator": "Emma Wegner; first three historical paragraphs",
+      "evidenceFamily": "Museum architectural history",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "egypt-historic-cairo",
+      "title": "Historical Cairo",
+      "url": "https://egymonuments.gov.eg/collections/historical-cairo/",
+      "publisher": "Egyptian Ministry of Tourism and Antiquities",
+      "checkedAt": "2026-11-19",
+      "locator": "City of the Thousand Minarets, paragraph dating Cairo's Mamluk period 1250–1517 and describing urban institutions.",
+      "evidenceFamily": "Government heritage summary",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Existing source rechecked and supplied with additional metadata. Original short paraphrase only; no imagery or source prose reproduced.",
+      "relationshipNote": "Separate institutional overview from the Met. Other chronological statements on this page were not adopted wholesale, and the ministry's separate Ayyubid page contains a date inconsistency recorded in batch notes."
+    },
+    {
+      "id": "archnet-azhar",
+      "title": "Jami’ al-Azhar",
+      "url": "https://next.archnet.org/sites/2311",
+      "publisher": "Archnet",
+      "checkedAt": "2026-11-19",
+      "locator": "Opening historical paragraph; Events",
+      "evidenceFamily": "Architectural history catalogue",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "asi-qutb",
+      "title": "Qutb Minar and its Monuments, Delhi",
+      "url": "https://asi.nic.in/pages/WorldHeritageQutbMinar",
+      "publisher": "Archaeological Survey of India",
+      "checkedAt": "2026-11-19",
+      "locator": "Paragraph on Qutbu’d-Din Aibak and 1199",
+      "evidenceFamily": "National archaeological authority; may share scholarship with UNESCO",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "unesco-qutb",
+      "title": "Qutb Minar and its Monuments, Delhi",
+      "url": "https://whc.unesco.org/en/list/233/",
+      "publisher": "UNESCO World Heritage Centre",
+      "checkedAt": "2026-11-19",
+      "locator": "Outstanding Universal Value; minaret construction paragraph",
+      "evidenceFamily": "World Heritage description; may share ASI scholarship",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "bangla-dhaka",
+      "title": "Dhaka",
+      "url": "https://en.banglapedia.org/index.php/Dhaka",
+      "publisher": "Banglapedia, Asiatic Society of Bangladesh",
+      "checkedAt": "2026-11-19",
+      "locator": "Dhaka to 1800 AD; capital transfer and Buriganga paragraphs",
+      "evidenceFamily": "Regional encyclopedia; same publisher as Musa Khan record",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "punjab-shalamar-report",
+      "title": "State of Conservation: Lahore Fort and Shalamar Gardens, 2018 report",
+      "url": "https://whc.unesco.org/document/165643",
+      "publisher": "Government of Punjab, hosted by UNESCO",
+      "checkedAt": "2026-11-19",
+      "locator": "Part 3, Shalamar Gardens, printed page 34",
+      "evidenceFamily": "State Party conservation report; linked evidence family with UNESCO property description",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "parliament-company-rule",
+      "title": "East India Company and Raj 1785–1858",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/east-india-company-and-raj-1785-1858/",
+      "publisher": "UK Parliament",
+      "checkedAt": "2026-11-19",
+      "locator": "End of Company rule",
+      "evidenceFamily": "Institutional historical synthesis",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "hansard-india-1886",
+      "title": "Government of India: Motion for a Select Committee, 11 March 1886",
+      "url": "https://hansard.parliament.uk/lords/1886-03-11/debates/e6550219-1e60-497b-addb-1e6dfe0d5541/GovernmentOfIndia",
+      "publisher": "UK Parliament, Hansard",
+      "checkedAt": "2026-11-19",
+      "locator": "Discussion of the 1858 Act transferring government to the Crown",
+      "evidenceFamily": "Parliamentary debate; retrospective statement, not the enacted law",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "delhi-archives-history",
+      "title": "History of Delhi Archives",
+      "url": "https://delhiarchives.delhi.gov.in/archives/history",
+      "publisher": "Government of NCT of Delhi, Department of Archives",
+      "checkedAt": "2026-11-19",
+      "locator": "Paragraph on the 12 December 1911 announcement",
+      "evidenceFamily": "Institutional local history",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "delhi-government-history",
+      "title": "About Us: History and Geography",
+      "url": "https://delhi.gov.in/page/about-us",
+      "publisher": "Government of NCT of Delhi",
+      "checkedAt": "2026-11-19",
+      "locator": "History and Geography, 1911 sentence",
+      "evidenceFamily": "Institutional local history; shared government provenance with Delhi Archives",
+      "retrievalStatus": "Relevant page and passage opened during enrichment.",
+      "notes": "Original short paraphrase only; no images or source prose imported. Two citations do not by themselves establish independent testimony."
+    },
+    {
+      "id": "met-birth-islam",
+      "title": "The Birth of Islam",
+      "url": "https://www.metmuseum.org/essays/the-birth-of-islam",
+      "publisher": "The Metropolitan Museum of Art",
+      "locator": "Suzan Yalman, based on Linda Komaroff; paragraphs on emigration to Yathrib/Medina and the year 622, October 2001.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original short factual paraphrases only. No source prose or images reproduced; museum content retains its own terms.",
+      "evidenceFamily": "Museum historical synthesis",
+      "relationshipNote": "Separate publication from OpenStax; both summarize inherited historical traditions rather than contemporary independent observations."
+    },
+    {
+      "id": "openstax-rise-islam",
+      "title": "World History Volume 1, to 1500: 11.1 The Rise and Message of Islam",
+      "url": "https://openstax.org/books/world-history-volume-1/pages/11-1-the-rise-and-message-of-islam",
+      "publisher": "OpenStax, Rice University",
+      "locator": "Paragraph beginning 'In 622' and following paragraph on the Islamic lunar calendar; subsection 'Muhammad’s Community'.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Used as a factual reference and paraphrased. No textbook images, maps, or extended text imported; source-specific licensing remains separate.",
+      "evidenceFamily": "University-published history textbook",
+      "relationshipNote": "A distinct educational synthesis; not a newly discovered primary witness to the Hijra."
+    },
+    {
+      "id": "iranica-kufa",
+      "title": "Kufa",
+      "url": "https://www.iranicaonline.org/articles/kufa/",
+      "publisher": "Encyclopaedia Iranica",
+      "locator": "Paragraphs on Abbasid revolutionary activity, al-Saffah's proclamation in October 749, and al-Mansur's Baghdad construction in 762.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Short original factual paraphrases only; no article text or imagery reproduced.",
+      "evidenceFamily": "Specialist scholarly reference",
+      "relationshipNote": "Cites al-Tabari and modern scholarship for 749. Those historical traditions overlap with the Cambridge chapter; matching citations are not separate eyewitnesses."
+    },
+    {
+      "id": "cambridge-abbasid-iran",
+      "title": "The Abbasid Caliphate in Iran",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-iran/abbasid-caliphate-in-iran/0C0AEDA02547D12DBA1B6B2A066E9679",
+      "publisher": "Cambridge University Press",
+      "locator": "Roy Mottahedeh, The Cambridge History of Iran, chapter 2, pp. 57–89; accessible summary's opening paragraph dates the Kufa address to October 749. DOI: 10.1017/CHOL9780521200936.003.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Only factual information from the openly accessible chapter summary was paraphrased. Full chapter and speech text not reproduced.",
+      "evidenceFamily": "Scholarly history chapter summary",
+      "relationshipNote": "The summary was opened; the complete chapter was not read. Its warning that the inaugural speech's authenticity is difficult to establish is preserved by avoiding quotation or claims about its exact wording."
+    },
+    {
+      "id": "iranica-buyids",
+      "title": "Buyids",
+      "url": "https://www.iranicaonline.org/articles/buyids/",
+      "publisher": "Encyclopaedia Iranica",
+      "locator": "Tilman Nagel; sections describing Ahmad's entry into Baghdad in December 945 and Tughril Beg's entry in December 1055; paragraph on the surviving Abbasid caliphate.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original short factual paraphrases only. No full passages, images, or maps imported.",
+      "evidenceFamily": "Specialist scholarly reference",
+      "relationshipNote": "The 945 and 1055 events reuse this one article. Reuse across cards does not create additional independent sources; the entry cites medieval chronicles and modern historical studies."
+    },
+    {
+      "id": "baker-buyids-baghdad",
+      "title": "The Buyids and Shiism in Baghdad",
+      "url": "https://www.cambridge.org/core/books/abs/medieval-islamic-sectarianism/buyids-and-shiism-in-baghdad/AFCE47D02F6FA0C3BFB8D8FCB66610ED",
+      "publisher": "Arc Humanities Press; accessible through Cambridge Core",
+      "locator": "Christine D. Baker, Medieval Islamic Sectarianism (2019), chapter 4, pp. 59–76; accessible summary, opening paragraph and 945–1055 chronology. DOI: 10.1017/9781641890830.005.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Factual paraphrase of accessible summary only; full chapter not accessed or reproduced.",
+      "evidenceFamily": "Scholarly history chapter summary",
+      "relationshipNote": "Distinct author and work from Nagel's Iranica entry. The checked summary complicates simple sectarian labels; its full source genealogy was not independently audited."
+    },
+    {
+      "id": "met-seljuq-iran",
+      "title": "The Art of the Seljuqs of Iran (ca. 1040–1157)",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-seljuqs-of-iran-ca-1040-1196",
+      "publisher": "The Metropolitan Museum of Art",
+      "locator": "Opening historical paragraph on the 1055 takeover of Baghdad and the Abbasid caliphate. Current displayed title ends in 1157; URL slug retains 1196.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase only; no article text or object imagery reproduced.",
+      "evidenceFamily": "Museum historical synthesis",
+      "relationshipNote": "Separate institutional summary corroborating the transition narrated in Iranica's Buyids entry; not an independent contemporary account."
+    },
+    {
+      "id": "met-ayyubid",
+      "title": "The Art of the Ayyubid Period (ca. 1171–1260)",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-ayyubid-period-ca-1171-1260",
+      "publisher": "The Metropolitan Museum of Art",
+      "locator": "Opening paragraph on Salah al-Din's ending of the Fatimid caliphate and the Ayyubid sultanate in 1171.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase only; no source prose or images reproduced.",
+      "evidenceFamily": "Museum historical synthesis",
+      "relationshipNote": "Corroborates the 1171 change described by Museum With No Frontiers. No claim of two independent primary accounts is made."
+    },
+    {
+      "id": "mwnf-atabegs-ayyubids",
+      "title": "The Atabegs and Ayyubids: Introduction",
+      "url": "https://islamicart.museumwnf.org/exhibitions/isl/the_ayyubids/introduction.php",
+      "publisher": "Museum With No Frontiers, Discover Islamic Art",
+      "locator": "Introduction, paragraph on Salah al-Din's rise and overthrow of the Fatimids in 1171.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original short factual paraphrase only. Exhibition images, downloadable text, and map not imported.",
+      "evidenceFamily": "Museum-network historical synthesis",
+      "relationshipNote": "Separate institutional account from the Met. The CE year is used; the page's Hijri conversion is not imported or asserted."
+    },
+    {
+      "id": "iranica-delhi-political",
+      "title": "Delhi Sultanate i. Political and cultural history",
+      "url": "https://www.iranicaonline.org/articles/delhi-sultanate/delhi-sultanate-i-political-and-cultural-history/",
+      "publisher": "Encyclopaedia Iranica",
+      "locator": "Paragraphs beginning with Muizz al-Din's assassination in 1206, division among commanders, Aybak's authority and title, and Iltutmish's succession.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original short factual paraphrases only. No source prose or imagery imported.",
+      "evidenceFamily": "Specialist scholarly reference",
+      "relationshipNote": "Its discussion makes a simple 1206 founding narrative more qualified. The source's displayed Hijri conversion beside 1206 is not adopted; only the independently supported CE chronology is used."
+    },
+    {
+      "id": "archnet-delhi-sultanates",
+      "title": "Timeline: Sultanate (Delhi Sultanates) {1200–1526}",
+      "url": "https://www.archnet.org/collections/2375",
+      "publisher": "Archnet / Aga Khan Documentation Center at MIT",
+      "locator": "Opening two paragraphs, especially the five consecutive sultanates collectively dated 1206–1526.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Factual periodization paraphrased. Site descriptions, images, maps, and architectural plans not reproduced.",
+      "evidenceFamily": "Architectural research chronology",
+      "relationshipNote": "A period framework rather than an accession eyewitness. Use of the broad Sultanate category for South Asia is kept separate from Delhi's five dynasties."
+    },
+    {
+      "id": "sarmaya-razia-tanka",
+      "title": "Razia Sultan, Silver Tanka",
+      "url": "https://sarmaya.in/objects/numismatics/delhi-sultanate-silver-tanka/",
+      "publisher": "Sarmaya Arts Foundation",
+      "locator": "Object accession 2015.N.136.1; displayed date circa 1236; narrative paragraphs on reign 1236–1240 and inscription in Iltutmish's name.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Factual object metadata and short original paraphrase only; coin photographs and museum prose not reproduced.",
+      "evidenceFamily": "Museum object record and interpretation",
+      "relationshipNote": "Object attribution is the museum's. Its statement about the ruler's political insecurity is an interpretation and is not promoted to a proven fact in the event."
+    },
+    {
+      "id": "srdc-razia",
+      "title": "1200–1300: Razia Sultana's Grave / Razia Sultan",
+      "url": "https://srdc.delhi.gov.in/en/srdc/1200-1300",
+      "publisher": "Shahjahanabad Redevelopment Corporation, Government of NCT of Delhi",
+      "locator": "First historical paragraph gives reign 1236–1240; following section identifies Iltutmish as her father.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Only bounded chronological and family facts paraphrased; photographs and source prose not imported.",
+      "evidenceFamily": "Government heritage summary",
+      "relationshipNote": "Underlying biographical sources are unspecified. The page's sweeping claim to the first female ruler in Muslim history, ancestry wording, and uncorroborated institutional achievements are not imported."
+    },
+    {
+      "id": "met-mamluk",
+      "title": "The Art of the Mamluk Period (1250–1517)",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517",
+      "publisher": "The Metropolitan Museum of Art",
+      "locator": "Opening historical paragraphs on Turan Shah, Egypt's 1250 transition, the post-1260 eastern Mediterranean transition, and Cairo as capital.",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original short factual paraphrases only. No source prose, images, or maps imported.",
+      "evidenceFamily": "Museum historical synthesis",
+      "relationshipNote": "Supports the political sequence; paired ministry source supports the period and Cairo setting rather than every claim in this essay."
+    },
+    {
+      "id": "late-wallace-ranjit",
+      "title": "Maharaja Ranjit Singh: Lion of the Punjab",
+      "url": "https://www.wallacecollection.org/explore/explore-in-depth/the-sikh-empire/the-lahore-durbar-the-court-of-lahore/maharaja-ranjit-singh-lion-of-the-punjab/",
+      "publisher": "The Wallace Collection",
+      "locator": "Paragraphs on the 1799 seizure of Lahore and the royal court within the walled city",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Consulted for original factual paraphrase; no images or source prose imported. Image rights are separate.",
+      "evidenceFamily": "Museum curatorial history",
+      "relationshipNote": "Retrospective interpretation drawing on earlier accounts; paired with Naeem’s scholarly court study, not counted as an eyewitness."
+    },
+    {
+      "id": "late-naeem-lahore-court",
+      "title": "Nadhra Shahbaz Naeem, Life at the Lahore Darbār: 1799–1839",
+      "url": "https://sasj.pu.edu.pk/9/article/download/675/676/1351",
+      "publisher": "South Asian Studies, University of the Punjab, volume 25 (2010)",
+      "locator": "Opening page, printed p. 283: 1799 occupation, forty-year rule, and reuse of Lahore Fort",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase only; article and illustrations are not redistributed.",
+      "evidenceFamily": "Scholarly historical study using contemporary court accounts",
+      "relationshipNote": "Different scholarly authorship from the Wallace account; contemporary observers are quoted within the study, not independently checked here."
+    },
+    {
+      "id": "late-gulhane-text",
+      "title": "The Rescript of Gülhane, 3 November 1839: English translation",
+      "url": "https://www.anayasa.gen.tr/gulhane.htm",
+      "publisher": "Kemal Gözler, Turkish Constitutional Law website; text credited to Boğaziçi University, Atatürk Institute",
+      "locator": "Dated heading and numbered provisions on life, property, taxation, and military service",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Consulted for short original paraphrase; translation not reproduced. Translator is unidentified on the page.",
+      "evidenceFamily": "Derivative English translation of an Ottoman proclamation",
+      "relationshipNote": "The page credits a now-removed Boğaziçi document; it is one transmission of the decree, not an independent account of implementation."
+    },
+    {
+      "id": "late-tdv-tanzimat",
+      "title": "Ali Akyıldız, Tanzimat",
+      "url": "https://islamansiklopedisi.org.tr/tanzimat",
+      "publisher": "TDV İslâm Ansiklopedisi, İslâm Araştırmaları Merkezi (2011)",
+      "locator": "Opening chronology; paragraphs beginning Hariciye Nâzırı Mustafa Reşid Paşa and Bunun için hazırlanması gereken yeni kanunların",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original English paraphrase of limited factual material; no Turkish prose or images imported.",
+      "evidenceFamily": "Specialist encyclopedia with Ottoman documentary references",
+      "relationshipNote": "Shares the decree as evidence for its promises, while supplying broader documentary context for preparation and earlier reforms."
+    },
+    {
+      "id": "late-tbmm-constitution",
+      "title": "History: The First Ottoman Constitution and the First Parliament",
+      "url": "https://tbmm.gov.tr/history",
+      "publisher": "Grand National Assembly of Türkiye",
+      "locator": "The First Ottoman Constitution and the First Parliament (I. Meşrutiyet), first three paragraphs",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase only; no page images or copied narrative.",
+      "evidenceFamily": "Retrospective parliamentary institutional history",
+      "relationshipNote": "Checked against an 1877 American diplomatic dispatch; national institutional framing is retained as provenance."
+    },
+    {
+      "id": "late-maynard-parliament",
+      "title": "Mr. Maynard to Mr. Evarts, Constantinople, 7 April 1877",
+      "url": "https://history.state.gov/historicaldocuments/frus1877/d321",
+      "publisher": "US Department of State, Office of the Historian, Foreign Relations of the United States 1877, document 321",
+      "locator": "Opening paragraphs; paragraph on senators; enclosed invitation dated 18 March 1877",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Historical US diplomatic document consulted; original paraphrase only and no third-party images imported.",
+      "evidenceFamily": "Contemporary diplomatic report with enclosed Ottoman official texts",
+      "relationshipNote": "Maynard attended the ceremony and a sitting; official enclosures remain dependent on their Ottoman issuers. His stated language limitation bounds his observations."
+    },
+    {
+      "id": "late-karachi-act",
+      "title": "Karachi Port Trust Act, 1886, Bombay Act VI of 1886, dated 8 February 1887",
+      "url": "https://dgps.gov.pk/SiteImage/Misc/files/Karachi%20Port%20Trust%20Act%201886%20%28KPT%20Act%29.pdf",
+      "publisher": "Government of Pakistan, Directorate General Ports and Shipping",
+      "locator": "Opening heading, preamble, and section 1",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Legal text consulted for factual title, date, and purpose; no document redistribution or blanket licensing claim.",
+      "evidenceFamily": "Government-hosted amended statutory compilation",
+      "relationshipNote": "Later amendments are visible in the text. Only the historical heading and purpose are used; current board provisions are not treated as the original 1887 composition."
+    },
+    {
+      "id": "late-ned-port-report",
+      "title": "Karachi Port Trust Building: State of Conservation Report",
+      "url": "https://www.neduet.edu.pk/arch_planning/Heritage/webpages/PDFS/KPT-Report-%282013-2014%29.pdf",
+      "publisher": "NED University of Engineering and Technology, Department of Architecture and Planning Heritage Cell (April 2014)",
+      "locator": "Historical background, printed pp. 8–9: replacement of harbor administration and enactment in 1887",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Limited original factual paraphrase; architectural drawings and photographs not imported.",
+      "evidenceFamily": "University conservation study with historical background",
+      "relationshipNote": "Cites earlier histories and a newspaper account; corroborates the institutional transition but is not an independent legal instrument."
+    },
+    {
+      "id": "late-kpt-history",
+      "title": "History of Karachi Port Trust",
+      "url": "https://kpt.gov.pk/pages/42/kpt-history",
+      "publisher": "Karachi Port Trust",
+      "locator": "Paragraphs on port works beginning in 1854 and wharf construction beginning in 1882",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase only; no port photographs, maps, or page text imported.",
+      "evidenceFamily": "Port authority institutional history",
+      "relationshipNote": "Supports the existence of harbor infrastructure before 1887. Institutional self-history is not a separate contemporary witness to the Act."
+    },
+    {
+      "id": "late-banglapedia-bengal",
+      "title": "Sufia Ahmed, Partition of Bengal, 1905",
+      "url": "https://en.banglapedia.org/index.php?title=Partition_of_Bengal,_1905",
+      "publisher": "Banglapedia, Asiatic Society of Bangladesh",
+      "locator": "Opening; paragraphs identifying the new province and 16 October 1905; closing discussion of 1 April 1912",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase; no images or source prose imported.",
+      "evidenceFamily": "Specialist national encyclopedia history",
+      "relationshipNote": "Retrospective account with interpretive claims. Used alongside contemporaneous administrative evidence; broad generalizations about religious communities are not imported."
+    },
+    {
+      "id": "late-bangladesh-museum-history",
+      "title": "The history of Bangladesh National Museum",
+      "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-museum-mymensingh/2024/12/e4884442527c447f99c9c38dad39e605.pdf",
+      "publisher": "Bangladesh museum government publication, hosted in the Mymensingh museum document store",
+      "locator": "Opening paragraphs: 16 October 1905 partition and Dhaka’s capital status",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original paraphrase of the opening chronology only; PDF not redistributed.",
+      "evidenceFamily": "Museum institutional history in a government document store",
+      "relationshipNote": "Corroborates the date and city status; may share standard administrative chronology with Banglapedia. Storage timestamp is not treated as the historical text’s publication date."
+    },
+    {
+      "id": "late-hansard-bengal",
+      "title": "Proposed Partition of Bengal, House of Commons, 8 August 1905",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1905/aug/08/proposed-partition-of-bengal",
+      "publisher": "UK Parliament, Historic Hansard",
+      "locator": "HC Deb, volume 151, columns 614–616: questions and Mr. Brodrick’s reply",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original paraphrase of historical parliamentary proceedings; no facsimile imported.",
+      "evidenceFamily": "Contemporary parliamentary debate",
+      "relationshipNote": "Evidence of the government proposal and acknowledged opposition. The minister explicitly did not yet supply an implementation date, so this is not cited for 16 October."
+    },
+    {
+      "id": "late-calcutta-commission-dacca",
+      "title": "Calcutta University Commission report: The University of Dacca",
+      "url": "https://ir.nbu.ac.in/bitstreams/9cd354f8-029b-4a5b-afb0-f52519572a2c/download",
+      "publisher": "Calcutta University Commission; digitized by University of North Bengal repository",
+      "locator": "The University of Dacca chapter, printed p. 122, opening continuation and paragraph 2",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Historical report consulted for limited factual paraphrase; no scans redistributed.",
+      "evidenceFamily": "Colonial education commission report",
+      "relationshipNote": "Administrative evidence for Dhaka’s capital period and its end in 1912, written before the university opened; not evidence for the 1921 opening."
+    },
+    {
+      "id": "late-iranica-sattar",
+      "title": "Sattār Khan",
+      "url": "https://www.iranicaonline.org/articles/sattar-khan-one-of-the-most-popular-heroes-from-tabriz-who-defended-the-town-during-the-lesser-autocracy-in-1908-09/",
+      "publisher": "Encyclopaedia Iranica",
+      "locator": "Paragraph beginning The following eleven months of civil war; three-stage account of resistance and siege",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase only; no article reproduction or asset reuse.",
+      "evidenceFamily": "Specialist biographical synthesis",
+      "relationshipNote": "Uses earlier Iranian accounts and modern scholarship including Janet Afary. Stage boundaries are not generalized into an exact eleven-month continuous siege."
+    },
+    {
+      "id": "late-clark-tabriz",
+      "title": "James D. Clark, Constitutionalists and Cossacks: The Constitutional Movement and Russian Intervention in Tabriz, 1907–11",
+      "url": "https://digitalcommons.unomaha.edu/histfacpub/24/",
+      "publisher": "Iranian Studies 39(2), 2006; University of Nebraska Omaha repository",
+      "locator": "Repository abstract: relief of the siege in 1909 and subsequent Russian military presence",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Abstract consulted for narrow factual corroboration; repository notes publisher copyright. Full article not claimed as read.",
+      "evidenceFamily": "Peer-reviewed historical study, accessible abstract",
+      "relationshipNote": "Different author from the Iranica biography; narrow support is limited to statements present in the opened abstract."
+    },
+    {
+      "id": "late-russian-officialdom",
+      "title": "Russian Officialdom and the Iranian Constitutional Revolution, 1905–1911",
+      "url": "https://www.cambridge.org/core/journals/iranian-studies/article/russian-officialdom-and-the-iranian-constitutional-revolution-19051911/504C2F5E34D6C521FF29E8FB9EB0DD72",
+      "publisher": "Iranian Studies, Cambridge University Press for the Association for Iranian Studies (2025)",
+      "locator": "Revolution in the semi-colony: discussion of Tabriz in late 1908 and winter 1908–1909, especially notes 73–85",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Page identifies CC BY-NC-ND 4.0 for the article; only original factual summary and link are supplied, with no copied article or images.",
+      "evidenceFamily": "Peer-reviewed archival study of Russian official correspondence",
+      "relationshipNote": "Uses Russian and Georgian archives but also cites Clark, Afary, and other shared scholarship. Distinct archival evidence does not make every sentence independent of prior studies."
+    },
+    {
+      "id": "late-openlearn-egypt",
+      "title": "After the First World War: the 1919 Egyptian Revolution",
+      "url": "https://www.open.edu/openlearn/course/view.php?id=14346",
+      "publisher": "The Open University, OpenLearn",
+      "locator": "Paragraphs on the arrests, Cairo demonstrations of March 1919, and women organizers",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase only; no teaching content or photographs reproduced.",
+      "evidenceFamily": "University public-history teaching account",
+      "relationshipNote": "Supplies broad chronology and organizers; detailed day-level chronology is qualified against Baron’s documentary analysis."
+    },
+    {
+      "id": "late-baron-women-egypt",
+      "title": "Beth Baron, The Politics of Female Notables in Postwar Egypt",
+      "url": "https://www.gc.cuny.edu/sites/default/files/2021-12/Beth-Baron%2C-22The-Politics-of-Female-Notables-in-Postwar-Egypt-22.pdf",
+      "publisher": "Borderlines: Genders and Identities in War and Peace, 1870–1930 (Routledge, 1998); author copy hosted by CUNY",
+      "locator": "Symbols section, printed pp. 335–338: contradictory chronology, planning, social composition, and protest encounters",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase and attributed methodological caution; no text, photographs, or scanned pages redistributed.",
+      "evidenceFamily": "Scholarly study using Arabic and British documentary accounts",
+      "relationshipNote": "Analyzes the limitations and contradictions of the surviving record. The OpenLearn summary may share that historical literature, so separate publication does not establish wholly independent testimony."
+    },
+    {
+      "id": "late-du-outline",
+      "title": "Historical Outline: British Era",
+      "url": "https://du.ac.bd/university/HistoricalOutline",
+      "publisher": "University of Dhaka",
+      "locator": "1920 and 1921 entries, especially opening date and initial faculties",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase only; no university images or copied page narrative.",
+      "evidenceFamily": "University institutional chronology",
+      "relationshipNote": "Institutional self-history; date checked against Banglapedia. Detailed faculty list remains attributed to this source."
+    },
+    {
+      "id": "late-banglapedia-jagannath",
+      "title": "Jagannath College",
+      "url": "https://en.banglapedia.org/index.php?lang=en&title=Jagannath_College",
+      "publisher": "Banglapedia, Asiatic Society of Bangladesh",
+      "locator": "Paragraphs on the 1920 Act, 1 July 1921 opening, and contributions of students, teachers, and library books",
+      "retrievedOn": "2026-11-19",
+      "rightsNote": "Original factual paraphrase only; no article prose or images imported.",
+      "evidenceFamily": "Historical encyclopedia account of a contributing college",
+      "relationshipNote": "Separately published from the university chronology but potentially based on shared institutional records. Resource-transfer details remain explicitly attributed."
+    }
+  ],
+  "places": [
+    {
+      "id": "cairo",
+      "name": "Cairo",
+      "aliases": [
+        "Al-Qahira",
+        "Al-Qahirah"
+      ],
+      "coord": [
+        31.248022,
+        30.051906
+      ],
+      "region": "Egypt",
+      "kind": "city",
+      "summary": "A Fatimid foundation that became a major center of government and urban life.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "met-fatimid",
+        "egypt-fatimid",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151603",
+        "sourceName": "Cairo",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 969,
+          "to": 969,
+          "name": "Al-Qahira",
+          "note": "The Fatimids founded Cairo after taking Egypt.",
+          "sourceIds": [
+            "met-fatimid",
+            "egypt-fatimid"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "aliases": [
+        "Al-Iskandariyya",
+        "Al-Iskandariyah"
+      ],
+      "coord": [
+        29.94805,
+        31.201965
+      ],
+      "region": "Egypt",
+      "kind": "city",
+      "summary": "Mediterranean port visited by Ibn Battuta in 1326.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "orias-journey",
+        "fordham-rihla",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151349",
+        "sourceName": "Alexandria",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 1326,
+          "to": 1326,
+          "name": "Alexandria",
+          "note": "His account records encounters in the city.",
+          "sourceIds": [
+            "orias-journey",
+            "fordham-rihla"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "aliases": [
+        "Al-Quds",
+        "Bayt al-Maqdis"
+      ],
+      "coord": [
+        35.206626,
+        31.778408
+      ],
+      "region": "Levant",
+      "kind": "city",
+      "summary": "The Dome of the Rock connects the city's sacred landscape with Umayyad patronage.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "unesco-jerusalem",
+        "met-umayyad",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151203",
+        "sourceName": "Jerusalem",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 691,
+          "to": 691,
+          "name": "Jerusalem",
+          "note": "The Dome of the Rock was built under Abd al-Malik.",
+          "sourceIds": [
+            "met-umayyad",
+            "archnet-umayyad"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus",
+      "aliases": [
+        "Dimashq"
+      ],
+      "coord": [
+        36.29805,
+        33.50198
+      ],
+      "region": "Levant",
+      "kind": "city",
+      "summary": "The Umayyads made Damascus their capital; its monumental mosque preserves that legacy.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "met-umayyad",
+        "unesco-damascus",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151269",
+        "sourceName": "Damascus",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 661,
+          "to": 750,
+          "name": "Damascus",
+          "note": "Center of the Umayyad caliphate.",
+          "sourceIds": [
+            "met-umayyad",
+            "archnet-umayyad"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "aliases": [
+        "Constantinople",
+        "Byzantion",
+        "Byzantium"
+      ],
+      "coord": [
+        28.974277,
+        41.017602
+      ],
+      "region": "Anatolia",
+      "kind": "city",
+      "summary": "A city on the Bosphorus whose historic districts preserve Byzantine and Ottoman monuments.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "unesco-istanbul",
+        "met-ottoman",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151579",
+        "sourceName": "Istanbul",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 1453,
+          "to": 1453,
+          "name": "Constantinople / Istanbul",
+          "note": "Ottoman conquest transformed the city into an imperial capital.",
+          "sourceIds": [
+            "met-ottoman",
+            "lacma-islamic"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "mecca",
+      "name": "Mecca",
+      "aliases": [
+        "Makkah"
+      ],
+      "coord": [
+        39.818094,
+        21.431967
+      ],
+      "region": "Arabia",
+      "kind": "city",
+      "summary": "Pilgrimage destination in Ibn Battuta's travels.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "orias-hajj",
+        "fordham-rihla",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151279",
+        "sourceName": "Makkah",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 1326,
+          "to": 1326,
+          "name": "Mecca",
+          "note": "He completed his first hajj here.",
+          "sourceIds": [
+            "orias-hajj",
+            "fordham-rihla"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "medina",
+      "name": "Medina",
+      "aliases": [
+        "Al-Madinah",
+        "Al-Madina"
+      ],
+      "coord": [
+        39.578057,
+        24.501935
+      ],
+      "region": "Arabia",
+      "kind": "city",
+      "summary": "A pilgrimage stop before Mecca.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "orias-hajj",
+        "fordham-rihla",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159149443",
+        "sourceName": "Medina",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 1326,
+          "to": 1326,
+          "name": "Medina",
+          "note": "He describes visiting the Prophet's Mosque.",
+          "sourceIds": [
+            "orias-hajj",
+            "fordham-rihla"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "baghdad",
+      "name": "Baghdad",
+      "aliases": [
+        "Bagdad"
+      ],
+      "coord": [
+        44.391923,
+        33.340594
+      ],
+      "region": "Mesopotamia",
+      "kind": "city",
+      "summary": "Founded as an Abbasid capital in 762, Baghdad became a major imperial city.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "met-abbasid",
+        "lacma-islamic",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151547",
+        "sourceName": "Baghdad",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 762,
+          "to": 762,
+          "name": "Baghdad",
+          "note": "A new Abbasid capital was established here.",
+          "sourceIds": [
+            "met-abbasid",
+            "lacma-islamic"
+          ]
+        },
+        {
+          "from": 1258,
+          "to": 1258,
+          "name": "Baghdad",
+          "note": "Hulegu's forces captured Baghdad, ending the Abbasid caliphate based in the city.",
+          "sourceIds": [
+            "met-ilkhanid",
+            "orias-persia"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "samarra",
+      "name": "Samarra",
+      "aliases": [
+        "Samarra Archaeological City"
+      ],
+      "coord": [
+        43.875001,
+        34.193997
+      ],
+      "region": "Mesopotamia",
+      "kind": "heritage site",
+      "summary": "An Abbasid capital whose archaeological remains preserve a vast ninth-century urban complex.",
+      "precision": "Approximate modern city reference point near the heritage area; not an exact archaeological location or property boundary.",
+      "sourceIds": [
+        "unesco-samarra",
+        "met-abbasid",
+        "ne-places-10m"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places-10m",
+        "recordId": "1159122533",
+        "sourceName": "Samarra",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 836,
+          "to": 892,
+          "name": "Samarra",
+          "note": "Seat of the Abbasid court.",
+          "sourceIds": [
+            "unesco-samarra",
+            "met-abbasid"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "aliases": [
+        "Babil"
+      ],
+      "coord": [
+        44.420833333333334,
+        32.54196944444444
+      ],
+      "region": "Mesopotamia",
+      "kind": "heritage site",
+      "summary": "A Mesopotamian royal city taken by Cyrus of Persia in 539 BCE.",
+      "precision": "UNESCO World Heritage reference point; represents the listed property, not its full extent.",
+      "sourceIds": [
+        "unesco-babylon",
+        "met-achaemenid",
+        "iranica-cyrus"
+      ],
+      "coordinateSource": {
+        "sourceId": "unesco-babylon",
+        "recordId": "278",
+        "original": "N32 32 31.09 E44 25 15"
+      },
+      "history": [
+        {
+          "from": -539,
+          "to": -539,
+          "name": "Babylon",
+          "note": "Cyrus's conquest brought the city under Achaemenid rule.",
+          "sourceIds": [
+            "met-achaemenid",
+            "iranica-cyrus"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "archaeological site",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "persepolis",
+      "name": "Persepolis",
+      "aliases": [
+        "Takht-e Jamshid",
+        "Parsa"
+      ],
+      "coord": [
+        52.89028,
+        29.93444
+      ],
+      "region": "Iran",
+      "kind": "heritage site",
+      "summary": "A monumental Achaemenid royal center developed under Darius I.",
+      "precision": "UNESCO World Heritage reference point; represents the listed property, not its full extent.",
+      "sourceIds": [
+        "unesco-persepolis",
+        "met-achaemenid"
+      ],
+      "coordinateSource": {
+        "sourceId": "unesco-persepolis",
+        "recordId": "114",
+        "original": "N29 56 3.984 E52 53 25.008"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Persepolis",
+          "note": "Darius developed the royal complex; no exact foundation year is asserted in this card.",
+          "sourceIds": [
+            "unesco-persepolis",
+            "met-achaemenid"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "archaeological site",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "isfahan",
+      "name": "Isfahan",
+      "aliases": [
+        "Esfahan",
+        "Ispahan"
+      ],
+      "coord": [
+        51.698092,
+        32.701951
+      ],
+      "region": "Iran",
+      "kind": "city",
+      "summary": "Shah Abbas's choice of Isfahan as his capital reshaped the city's architecture and arts.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "met-isfahan",
+        "iranica-isfahan",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159150971",
+        "sourceName": "Isfahan",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 1597,
+          "to": 1598,
+          "name": "Isfahan",
+          "note": "Chosen as the Safavid capital around 1597–1598.",
+          "sourceIds": [
+            "met-isfahan",
+            "iranica-isfahan"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "tabriz",
+      "name": "Tabriz",
+      "aliases": [],
+      "coord": [
+        46.2993,
+        38.088237
+      ],
+      "region": "Iran",
+      "kind": "city",
+      "summary": "The city where Ismail I established Safavid rule in 1501.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "met-safavid",
+        "iranica-ismail",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159150135",
+        "sourceName": "Tabriz",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 1501,
+          "to": 1501,
+          "name": "Tabriz",
+          "note": "Ismail I's accession marked the start of Safavid rule.",
+          "sourceIds": [
+            "met-safavid",
+            "iranica-ismail"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "kabul",
+      "name": "Kabul",
+      "aliases": [
+        "Kabol"
+      ],
+      "coord": [
+        69.181314,
+        34.518636
+      ],
+      "region": "Afghanistan",
+      "kind": "city",
+      "summary": "Babur took Kabul in 1504, before his later conquests in northern India.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "met-mughal",
+        "si-kabul",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151561",
+        "sourceName": "Kabul",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 1504,
+          "to": 1504,
+          "name": "Kabul",
+          "note": "Babur gained control of Kabul.",
+          "sourceIds": [
+            "met-mughal",
+            "si-kabul"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "bamiyan",
+      "name": "Bamiyan Valley",
+      "aliases": [
+        "Bamiyan",
+        "Bamyan"
+      ],
+      "coord": [
+        67.822732,
+        34.813337
+      ],
+      "region": "Afghanistan",
+      "kind": "heritage site",
+      "summary": "Buddhist art and monastic remains mark Bamiyan's place in trans-Asian cultural exchange.",
+      "precision": "Approximate modern city reference point near the heritage area; not an exact archaeological location or property boundary.",
+      "sourceIds": [
+        "unesco-bamiyan",
+        "unesco-silkroads",
+        "ne-places-10m"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places-10m",
+        "recordId": "1159147707",
+        "sourceName": "Bamian",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Bamiyan",
+          "note": "The valley's Buddhist heritage is documented by UNESCO; detailed local chronology remains to be added.",
+          "sourceIds": [
+            "unesco-bamiyan",
+            "unesco-silkroads"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "archaeological site",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "taxila",
+      "name": "Taxila",
+      "aliases": [
+        "Takshashila",
+        "Taksasila"
+      ],
+      "coord": null,
+      "region": "Punjab / Pakistan",
+      "kind": "heritage site",
+      "summary": "A cluster of ancient settlements and Buddhist monuments in the northwestern subcontinent.",
+      "precision": "Location not plotted: a verified point has not yet been imported.",
+      "sourceIds": [
+        "unesco-taxila",
+        "uw-buddhism"
+      ],
+      "coordinateSource": null,
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Taxila",
+          "note": "The place record represents a group of sites, not one continuous city footprint.",
+          "sourceIds": [
+            "unesco-taxila",
+            "uw-buddhism"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "archaeological site",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "lahore",
+      "name": "Lahore",
+      "aliases": [],
+      "coord": [
+        74.348079,
+        31.561917
+      ],
+      "region": "Punjab / Pakistan",
+      "kind": "city",
+      "summary": "An important Mughal royal center, represented today by its fort and gardens.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "unesco-lahore",
+        "met-mughal",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151285",
+        "sourceName": "Lahore",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Lahore",
+          "note": "Mughal rulers invested in the city and its monumental landscape.",
+          "sourceIds": [
+            "unesco-lahore",
+            "met-mughal"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "karachi",
+      "name": "Karachi",
+      "aliases": [],
+      "coord": [
+        66.988063,
+        24.871938
+      ],
+      "region": "Sindh / Pakistan",
+      "kind": "reference place",
+      "summary": "A modern city reference for Karachi on the Arabian Sea. The source-linked 1887 port-administration event below adds a selected historical episode; this point does not trace the old harbor or the city’s changing shoreline.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "ne-places",
+        "late-karachi-act",
+        "late-ned-port-report",
+        "late-kpt-history"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151287",
+        "sourceName": "Karachi",
+        "revision": "v5.1.2"
+      },
+      "history": [],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "aliases": [
+        "Dilli",
+        "Dehli"
+      ],
+      "coord": [
+        77.228058,
+        28.671939
+      ],
+      "region": "North India",
+      "kind": "city",
+      "summary": "A center of sultanate and Mughal power, and a long stop in Ibn Battuta's travels.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "met-mughal",
+        "vam-mughal",
+        "orias-delhi",
+        "lee-delhi",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151405",
+        "sourceName": "Delhi",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Delhi",
+          "note": "Ibn Battuta describes serving as a judge under Muhammad bin Tughluq in the 1330s.",
+          "sourceIds": [
+            "orias-delhi",
+            "lee-delhi"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "agra",
+      "name": "Agra",
+      "aliases": [],
+      "coord": [
+        78.013075,
+        27.172366
+      ],
+      "region": "North India",
+      "kind": "city",
+      "summary": "A Mughal royal city whose Taj Mahal was commissioned by Shah Jahan for Mumtaz Mahal.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "unesco-agra",
+        "asi-taj",
+        "ne-places",
+        "up-taj"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159149175",
+        "sourceName": "Agra",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": 1648,
+          "to": 1648,
+          "name": "Agra",
+          "note": "The main Taj Mahal mausoleum was complete by 1648; work on the wider complex continued.",
+          "sourceIds": [
+            "unesco-agra",
+            "asi-taj",
+            "up-taj"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "kozhikode",
+      "name": "Kozhikode",
+      "aliases": [
+        "Calicut",
+        "Kalikut"
+      ],
+      "coord": [
+        75.768044,
+        11.252382
+      ],
+      "region": "Malabar / India",
+      "kind": "city",
+      "summary": "An Indian Ocean port where Ibn Battuta's planned voyage to China was disrupted.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "orias-islands",
+        "lee-calicut",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159150463",
+        "sourceName": "Kozhikode",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Calicut",
+          "note": "His account describes merchants, ships and a destructive storm at the port in the early 1340s.",
+          "sourceIds": [
+            "orias-islands",
+            "lee-calicut"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "nalanda",
+      "name": "Nalanda Mahavihara",
+      "aliases": [
+        "Nalanda"
+      ],
+      "coord": [
+        85.44388888888889,
+        25.136666666666667
+      ],
+      "region": "Bihar / India",
+      "kind": "heritage site",
+      "summary": "A Buddhist monastic and scholarly center with a long history of teaching and patronage.",
+      "precision": "UNESCO World Heritage reference point; represents the listed property, not its full extent.",
+      "sourceIds": [
+        "unesco-nalanda",
+        "bihar-nalanda"
+      ],
+      "coordinateSource": {
+        "sourceId": "unesco-nalanda",
+        "recordId": "1502",
+        "original": "N25 8 12 E85 26 38"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Nalanda",
+          "note": "Sources place its flourishing as a teaching institution from the fifth century CE into the medieval period.",
+          "sourceIds": [
+            "unesco-nalanda",
+            "bihar-nalanda"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "archaeological site",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "dhaka",
+      "name": "Dhaka",
+      "aliases": [
+        "Dacca",
+        "Jahangirnagar"
+      ],
+      "coord": [
+        90.406634,
+        23.725006
+      ],
+      "region": "Bengal / Bangladesh",
+      "kind": "city",
+      "summary": "A Mughal administrative center also known as Jahangirnagar.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "bangla-musa",
+        "bangla-naib",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151467",
+        "sourceName": "Dhaka",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Jahangirnagar / Dhaka",
+          "note": "The city's Mughal administrative role continued through changing provincial institutions.",
+          "sourceIds": [
+            "bangla-musa",
+            "bangla-naib"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "paharpur",
+      "name": "Paharpur",
+      "aliases": [
+        "Somapura",
+        "Somapura Mahavihara"
+      ],
+      "coord": [
+        88.98333333333333,
+        25.03333333333333
+      ],
+      "region": "Bengal / Bangladesh",
+      "kind": "heritage site",
+      "summary": "The remains of Somapura Mahavihara preserve a major Buddhist monastic center of Bengal.",
+      "precision": "UNESCO World Heritage reference point; represents the listed property, not its full extent.",
+      "sourceIds": [
+        "unesco-paharpur",
+        "bangla-somapura"
+      ],
+      "coordinateSource": {
+        "sourceId": "unesco-paharpur",
+        "recordId": "322",
+        "original": "N25 1 60 E88 58 60; seconds normalized arithmetically"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Somapura Mahavihara",
+          "note": "Associated with Pala patronage; differing foundation traditions are not reduced to an exact year.",
+          "sourceIds": [
+            "unesco-paharpur",
+            "bangla-somapura"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "archaeological site",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "kathmandu",
+      "name": "Kathmandu",
+      "aliases": [
+        "Kantipur"
+      ],
+      "coord": [
+        85.314696,
+        27.718638
+      ],
+      "region": "Nepal",
+      "kind": "city",
+      "summary": "The city's Durbar Square belongs to a wider valley landscape of palaces and religious monuments.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "unesco-kathmandu",
+        "ntb-kathmandu",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159150655",
+        "sourceName": "Kathmandu",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Kathmandu",
+          "note": "This record points to the city; the World Heritage property comprises several separate monument zones.",
+          "sourceIds": [
+            "unesco-kathmandu",
+            "ntb-kathmandu"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "lumbini",
+      "name": "Lumbini",
+      "aliases": [],
+      "coord": [
+        83.27611,
+        27.46889
+      ],
+      "region": "Nepal",
+      "kind": "heritage site",
+      "summary": "A Buddhist pilgrimage place whose Ashokan pillar records an ancient royal visit.",
+      "precision": "UNESCO World Heritage reference point; represents the listed property, not its full extent.",
+      "sourceIds": [
+        "unesco-lumbini",
+        "ntb-lumbini"
+      ],
+      "coordinateSource": {
+        "sourceId": "unesco-lumbini",
+        "recordId": "666",
+        "original": "N27 28 8.004 E83 16 33.996"
+      },
+      "history": [
+        {
+          "from": -249,
+          "to": -249,
+          "name": "Lumbini",
+          "note": "Ashoka's visit and commemorative pillar are conventionally dated to 249 BCE.",
+          "sourceIds": [
+            "unesco-lumbini",
+            "ntb-lumbini"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "sacred site",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "thimphu",
+      "name": "Thimphu",
+      "aliases": [
+        "Thimpu"
+      ],
+      "coord": [
+        89.639014,
+        27.472986
+      ],
+      "region": "Bhutan",
+      "kind": "reference place",
+      "summary": "Modern reference location. Bhutan is in scope; its local historical narrative remains to be researched.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location.",
+      "sourceIds": [
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151151",
+        "sourceName": "Thimphu",
+        "revision": "v5.1.2"
+      },
+      "history": [],
+      "reviewStatus": "historical coverage pending",
+      "recordType": "modern reference",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "anuradhapura",
+      "name": "Anuradhapura",
+      "aliases": [],
+      "coord": [
+        80.38333333333333,
+        8.333333333333334
+      ],
+      "region": "Sri Lanka",
+      "kind": "heritage site",
+      "summary": "An ancient royal and Buddhist center, with palaces, monasteries and sacred monuments.",
+      "precision": "UNESCO World Heritage reference point; represents the listed property, not its full extent.",
+      "sourceIds": [
+        "unesco-anuradhapura",
+        "sl-overview"
+      ],
+      "coordinateSource": {
+        "sourceId": "unesco-anuradhapura",
+        "recordId": "200",
+        "original": "N8 19 60 E80 22 60; seconds normalized arithmetically"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Anuradhapura",
+          "note": "Royal and religious importance is documented; this card does not assign a single founding date.",
+          "sourceIds": [
+            "unesco-anuradhapura",
+            "sl-overview"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "sacred site",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "male",
+      "name": "Malé",
+      "aliases": [
+        "Male",
+        "Mohl"
+      ],
+      "coord": [
+        73.508901,
+        4.172037
+      ],
+      "region": "Maldives",
+      "kind": "city",
+      "summary": "Modern reference for Ibn Battuta's account of judicial service in the Maldives.",
+      "precision": "Approximate modern city reference point; not a historical city boundary or exact monument location. This point is a proxy for the island-court episode, not a verified location of the medieval court.",
+      "sourceIds": [
+        "orias-islands",
+        "lee-maldives",
+        "ne-places"
+      ],
+      "coordinateSource": {
+        "sourceId": "ne-places",
+        "recordId": "1159151201",
+        "sourceName": "Malé",
+        "revision": "v5.1.2"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Malé",
+          "note": "His narrative describes court politics and resistance to some of his legal demands during the early 1340s.",
+          "sourceIds": [
+            "orias-islands",
+            "lee-maldives"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "settlement",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    },
+    {
+      "id": "sri-pada",
+      "name": "Sri Pada",
+      "aliases": [
+        "Adam's Peak",
+        "Sarandib",
+        "Mountain of Serendib"
+      ],
+      "coord": null,
+      "region": "Sri Lanka",
+      "kind": "heritage site",
+      "summary": "A pilgrimage mountain visited by Ibn Battuta, who described the ascent in his travel account.",
+      "precision": "Location not plotted: a verified point has not yet been imported.",
+      "sourceIds": [
+        "orias-islands",
+        "lee-ceylon"
+      ],
+      "coordinateSource": null,
+      "history": [
+        {
+          "from": null,
+          "to": null,
+          "name": "Sri Pada / Adam's Peak",
+          "note": "The travel account describes a pilgrimage to the sacred footprint; it does not establish any supernatural claim.",
+          "sourceIds": [
+            "orias-islands",
+            "lee-ceylon"
+          ]
+        }
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "recordType": "sacred site",
+      "classificationNote": "Editorial subject category based on the existing record; not a claim about continuous existence or the precise historical extent of the site."
+    }
+  ],
+  "events": [
+    {
+      "id": "cyrus-babylon",
+      "year": -539,
+      "title": "Cyrus takes Babylon",
+      "description": "The Persian conquest brought Babylon into the Achaemenid realm.",
+      "placeId": "babylon",
+      "sourceIds": [
+        "met-achaemenid",
+        "iranica-cyrus"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "ashoka-lumbini",
+      "year": -249,
+      "title": "Ashoka's visit to Lumbini",
+      "description": "The commemorative pillar is conventionally dated to Ashoka's pilgrimage in 249 BCE.",
+      "placeId": "lumbini",
+      "sourceIds": [
+        "unesco-lumbini",
+        "ntb-lumbini"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "constantinople-capital",
+      "year": 330,
+      "title": "Constantinople: a new Roman capital",
+      "description": "Constantine established a new imperial capital at Byzantion in 330 and gave it the name Constantinople. Its position on the Bosporus connected the city with routes between Europe and Asia. The later label “Byzantine” can obscure an important continuity: its inhabitants understood their state as Roman. The marker uses the atlas’s Istanbul reference point; it does not trace the fourth-century city or the extent of Constantine’s building works.",
+      "placeId": "istanbul",
+      "sourceIds": [
+        "met-byzantium",
+        "met-roman-empire"
+      ],
+      "datePrecision": "year",
+      "sourceAssessment": "Two museum essays by different named authors; institutional provenance is shared.",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "bamiyan-monastic-landscape",
+      "year": 400,
+      "title": "Buddhist monasteries in the Bamiyan cliffs",
+      "description": "By late antiquity, Bamiyan’s cliffs formed a landscape of Buddhist caves, sanctuaries, and monastic spaces. UNESCO dates parts of the cave ensemble to the third–fifth centuries; Iranica describes occupation probably from the third century and certainly into the seventh or eighth. The year 400 is a viewing anchor within that broad history, not a foundation date. This record does not assign an exact construction year to either colossal Buddha.",
+      "placeId": "bamiyan",
+      "sourceIds": [
+        "unesco-bamiyan",
+        "iranica-afghan-art"
+      ],
+      "datePrecision": "third–fifth-century cave ensemble; 400 is an editorial navigation anchor",
+      "sourceAssessment": "Corroborating institutional or specialist accounts; shared underlying scholarship remains possible.",
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "displayDate": "Third–fifth centuries CE",
+      "earliestYear": 201,
+      "latestYear": 500
+    },
+    {
+      "id": "nalanda-learning",
+      "year": 450,
+      "title": "Nalanda emerges as a center of learning",
+      "description": "Nalanda developed as a major monastic and teaching institution from the fifth century CE. Its archaeological remains combine spaces for residence, worship, and education, reminding us that knowledge had an institutional geography as well as a history of individual thinkers. The site also contains older remains, which should not be confused with the beginning of the later scholastic establishment. The year 450 represents the fifth century; no precise founding date is asserted.",
+      "placeId": "nalanda",
+      "sourceIds": [
+        "unesco-nalanda",
+        "bihar-nalanda"
+      ],
+      "datePrecision": "fifth century CE; 450 is an editorial navigation anchor",
+      "sourceAssessment": "Corroborating institutional or specialist accounts; shared underlying scholarship remains possible.",
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "displayDate": "Fifth century CE",
+      "earliestYear": 401,
+      "latestYear": 500
+    },
+    {
+      "id": "hagia-sophia-dedicated",
+      "year": 537,
+      "title": "Justinian’s Hagia Sophia is inaugurated",
+      "description": "After the earlier church burned during the Nika revolt of 532, Justinian ordered Hagia Sophia rebuilt. The new building was inaugurated in 537. Its vast dome and linked vaults made engineering part of the expression of imperial and religious authority. Later repairs and transformations belong to the building’s continuing history. The marker identifies Constantinople through the existing city reference point, not the exact position or footprint of the monument.",
+      "placeId": "istanbul",
+      "sourceIds": [
+        "met-hagia-sophia",
+        "unesco-istanbul"
+      ],
+      "datePrecision": "year; the Met dates inauguration to 27 December 537",
+      "sourceAssessment": "Corroborating institutional or specialist accounts; shared underlying scholarship remains possible.",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "hijra-medina",
+      "title": "The Hijra: a community moves to Medina",
+      "year": 622,
+      "placeId": "medina",
+      "description": "In 622, Muhammad and his followers moved from Mecca to Yathrib, the settlement known as Medina, amid opposition in Mecca. The Hijra became the reference year for the Islamic calendar. It also marks a change in the setting of the early Muslim community: Medina became a place of community formation under Muhammad's leadership. This card uses the destination to orient the reader; its marker does not reconstruct the travelers' route or identify an exact arrival site.",
+      "datePrecision": "year; 622 is the navigation anchor, without an asserted departure or arrival day",
+      "displayDate": "622 CE",
+      "earliestYear": 622,
+      "latestYear": 622,
+      "sourceIds": [
+        "met-birth-islam",
+        "openstax-rise-islam"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "hijra-migration",
+          "text": "Muhammad and his followers moved from Mecca to Medina in 622.",
+          "sourceIds": [
+            "met-birth-islam",
+            "openstax-rise-islam"
+          ]
+        },
+        {
+          "id": "hijra-calendar",
+          "text": "The Islamic calendar counts its first year from the year of the Hijra.",
+          "sourceIds": [
+            "met-birth-islam",
+            "openstax-rise-islam"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "A museum synthesis and a university-published textbook corroborate the conventional year and migration. Both summarize historical traditions; they are not two contemporary eyewitness accounts.",
+      "locationNote": "Medina is the destination and an existing approximate modern city reference. No new coordinates, departure point, arrival building, or route geometry are asserted."
+    },
+    {
+      "id": "umayyad-damascus",
+      "year": 661,
+      "title": "Damascus becomes an imperial center",
+      "description": "Muawiya's accession began Umayyad rule, with Damascus as its capital.",
+      "placeId": "damascus",
+      "sourceIds": [
+        "met-umayyad",
+        "archnet-umayyad"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "dome-rock",
+      "year": 691,
+      "title": "The Dome of the Rock",
+      "description": "Abd al-Malik's monument takes shape in Jerusalem.",
+      "placeId": "jerusalem",
+      "sourceIds": [
+        "met-umayyad",
+        "archnet-umayyad"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "abbasid-transition",
+      "title": "The Abbasid transition",
+      "year": 750,
+      "placeId": "damascus",
+      "description": "The transition from Umayyad to Abbasid rule crossed more than one year and place. Abu al-Abbas al-Saffah was proclaimed caliph at Kufa in 749; the Abbasids displaced the Umayyad caliphate in 750. Keeping both dates distinguishes the proclamation from the broader change of dynasty. Damascus provides an associated Umayyad-center marker here, not the site of the Kufa proclamation. Baghdad's establishment as an Abbasid capital belongs to the separate 762 event, rather than to this transition.",
+      "datePrecision": "multi-stage transition; 750 is the navigation anchor within the supported 749–750 range",
+      "displayDate": "749–750 CE",
+      "earliestYear": 749,
+      "latestYear": 750,
+      "sourceIds": [
+        "iranica-kufa",
+        "cambridge-abbasid-iran",
+        "met-abbasid"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "abbasid-kufa-proclamation",
+          "text": "Al-Saffah was proclaimed caliph at Kufa in 749.",
+          "sourceIds": [
+            "iranica-kufa",
+            "cambridge-abbasid-iran"
+          ]
+        },
+        {
+          "id": "abbasid-succession",
+          "text": "The Abbasids succeeded the Umayyad caliphate in 750; Baghdad became the new capital in 762.",
+          "sourceIds": [
+            "met-abbasid",
+            "iranica-kufa"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "Iranica and Mottahedeh's Cambridge chapter corroborate the 749 proclamation but draw on overlapping medieval historical traditions, including al-Tabari. The Met supplies a broader 750 period boundary. These are complementary chronological scopes, not conflicting exact dates or three independent eyewitness reports.",
+      "locationNote": "Damascus is an associated center of the displaced Umayyad caliphate. The proclamation occurred at Kufa, which has no accepted place record in this batch. The marker must not be presented as the proclamation location or as the extent of the revolution."
+    },
+    {
+      "id": "baghdad-founded",
+      "year": 762,
+      "title": "A new capital at Baghdad",
+      "description": "The Abbasids founded Baghdad as their new capital.",
+      "placeId": "baghdad",
+      "sourceIds": [
+        "met-abbasid",
+        "lacma-islamic"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "somapura-pala-patronage",
+      "year": 800,
+      "title": "Pala patronage at Somapura Mahavihara",
+      "description": "Somapura Mahavihara at Paharpur became a major Buddhist monastic and intellectual center under Pala patronage. Banglapedia associates the foundation with Dharmapala, while recording Tibetan traditions that credit Devapala. Those accounts cannot be collapsed into one certain foundation year. The year 800 is a viewing anchor for the period of early patronage. The surviving complex opens a view of Bengal through religious institutions and learning, alongside the better-known histories of imperial courts.",
+      "placeId": "paharpur",
+      "sourceIds": [
+        "unesco-paharpur",
+        "bangla-somapura"
+      ],
+      "datePrecision": "late eighth–early ninth century; 800 is an editorial anchor, not an exact foundation year",
+      "sourceAssessment": "Corroborating institutional or specialist accounts; shared underlying scholarship remains possible.",
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "displayDate": "Late eighth–early ninth century CE"
+    },
+    {
+      "id": "samarra-capital",
+      "year": 836,
+      "title": "The Abbasid court at Samarra",
+      "description": "Samarra became the seat of the Abbasid court, a role it held until 892.",
+      "placeId": "samarra",
+      "sourceIds": [
+        "met-abbasid",
+        "unesco-samarra"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "samarra-capital-ends",
+      "year": 892,
+      "title": "Samarra's capital period ends",
+      "description": "The documented period of Abbasid residence at Samarra closes in 892.",
+      "placeId": "samarra",
+      "sourceIds": [
+        "met-abbasid",
+        "unesco-samarra"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "buyid-baghdad",
+      "title": "Buyid power reaches Baghdad",
+      "year": 945,
+      "placeId": "baghdad",
+      "description": "Ahmad ibn Buya entered Baghdad in 945 and received the title Muizz al-Dawla from the Abbasid caliph. Buyid political power now operated alongside a caliphal institution that continued to exist. This episode helps separate the name of a caliphate from the rulers who controlled its capital. The year marks a change in government at Baghdad; it does not date the beginning of Buyid activity elsewhere or establish a uniform frontier for every branch of the dynasty.",
+      "datePrecision": "year; 945 is the navigation anchor for the Baghdad takeover",
+      "displayDate": "945 CE",
+      "earliestYear": 945,
+      "latestYear": 945,
+      "sourceIds": [
+        "iranica-buyids",
+        "baker-buyids-baghdad"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "buyid-baghdad-takeover",
+          "text": "The Buyids took control of Baghdad in 945.",
+          "sourceIds": [
+            "iranica-buyids",
+            "baker-buyids-baghdad"
+          ]
+        },
+        {
+          "id": "buyid-caliph-relationship",
+          "text": "Ahmad ibn Buya received the title Muizz al-Dawla; the Abbasid caliphate survived under Buyid dominance.",
+          "sourceIds": [
+            "iranica-buyids"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "Tilman Nagel's specialist entry and Christine D. Baker's later scholarly synthesis are distinct authored works. Only Baker's accessible chapter summary was checked; the complete chapter was not reviewed. Their shared historical subject does not establish independent primary testimony.",
+      "locationNote": "The event concerns Baghdad. The retained modern city reference does not identify Ahmad's entry route, court buildings, or the medieval city's limits."
+    },
+    {
+      "id": "cairo-founded",
+      "year": 969,
+      "title": "The founding of Cairo",
+      "description": "Following their conquest of Egypt, the Fatimids established Cairo.",
+      "placeId": "cairo",
+      "sourceIds": [
+        "met-fatimid",
+        "egypt-fatimid"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "al-azhar-founded",
+      "year": 970,
+      "title": "Al-Azhar: a mosque for the new Cairo",
+      "description": "Jawhar al-Siqilli founded al-Azhar in 970 as the congregational mosque of the new Fatimid city of al-Qahira. Its foundation followed the conquest of Egypt and the establishment of Cairo. Read this date as a building foundation, not as a claim that every later educational institution or practice began at once. The existing Cairo marker locates the urban setting; it does not give the mosque’s precise coordinates.",
+      "placeId": "cairo",
+      "sourceIds": [
+        "egypt-historic-cairo",
+        "archnet-azhar"
+      ],
+      "datePrecision": "year",
+      "sourceAssessment": "Corroborating institutional or specialist accounts; shared underlying scholarship remains possible.",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "seljuq-baghdad",
+      "title": "Seljuq rule replaces the Buyids in Baghdad",
+      "year": 1055,
+      "placeId": "baghdad",
+      "description": "Tughril Beg entered Baghdad in 1055, and the Buyid ruler al-Malik al-Rahim was subsequently imprisoned. The Seljuqs replaced Buyid power in Iraq while maintaining the Abbasid caliphal institution. The change illustrates how military government and caliphal authority could be held by different actors in the same city. It was a local political turning point within a wider Seljuq expansion, not the instant creation of all territories later associated with Seljuq rulers.",
+      "datePrecision": "year; 1055 is the navigation anchor, with Iranica placing the entry in December",
+      "displayDate": "1055 CE",
+      "earliestYear": 1055,
+      "latestYear": 1055,
+      "sourceIds": [
+        "iranica-buyids",
+        "met-seljuq-iran"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "seljuq-entry",
+          "text": "Tughril Beg entered Baghdad in 1055, ending Buyid rule there.",
+          "sourceIds": [
+            "iranica-buyids",
+            "met-seljuq-iran"
+          ]
+        },
+        {
+          "id": "seljuq-caliphate",
+          "text": "The Abbasid caliphate continued under Seljuq protection and political dominance.",
+          "sourceIds": [
+            "met-seljuq-iran",
+            "iranica-buyids"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "The Met's art-historical synthesis and Iranica's specialist Buyid history are distinct publications. Iranica gives the detailed sequence; the museum essay corroborates the year and change of regime. No independent eyewitness count is claimed.",
+      "locationNote": "Baghdad is the affected city, represented by the existing modern reference point. Neither cited narrative validates the map's territorial vertices."
+    },
+    {
+      "id": "ayyubid-egypt",
+      "title": "The Fatimid caliphate gives way to Ayyubid rule",
+      "year": 1171,
+      "placeId": "cairo",
+      "description": "In 1171, Salah al-Din brought the Fatimid caliphate to an end in Egypt, a conventional starting point for the Ayyubid sultanate. The political change connects Cairo's Fatimid history to a new ruling house and to the wider history of Syria. It should not be read as an instantaneous replacement of the region's institutions or population. This record dates the Egyptian transition; later Ayyubid expansion and the dynasty's different regional endings require their own chronology.",
+      "datePrecision": "year; 1171 is the navigation anchor for the end of Fatimid caliphal rule in Egypt",
+      "displayDate": "1171 CE",
+      "earliestYear": 1171,
+      "latestYear": 1171,
+      "sourceIds": [
+        "met-ayyubid",
+        "mwnf-atabegs-ayyubids"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "ayyubid-fatimid-end",
+          "text": "Salah al-Din ended the Fatimid caliphate in Egypt in 1171.",
+          "sourceIds": [
+            "met-ayyubid",
+            "mwnf-atabegs-ayyubids"
+          ]
+        },
+        {
+          "id": "ayyubid-period-start",
+          "text": "The Met uses 1171 for the establishment of the Ayyubid sultanate.",
+          "sourceIds": [
+            "met-ayyubid"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "The Met and Museum With No Frontiers are separate institutional syntheses. Their agreement supports the bounded 1171 claim, without independently establishing every stage of Salah al-Din's sovereignty or the date conversion in each publication.",
+      "locationNote": "Cairo is the associated capital of Fatimid Egypt. Its existing modern city reference is not a surveyed site of a single transfer-of-power ceremony."
+    },
+    {
+      "id": "qutb-minar-begun",
+      "year": 1199,
+      "title": "Building begins on the Qutb Minar",
+      "description": "Qutb al-Din Aibak began the Qutb Minar in 1199, according to the Archaeological Survey of India. His successors added to the tower, and later rulers repaired it; its standing form therefore records several phases rather than one moment. UNESCO places it within a larger complex of mosques, tombs, and gateways. The Delhi pin is a city reference: the monument lies at Mehrauli and is not located precisely by this marker.",
+      "placeId": "delhi",
+      "sourceIds": [
+        "asi-qutb",
+        "unesco-qutb"
+      ],
+      "datePrecision": "1199 foundation; later additions and repairs are distinct phases",
+      "sourceAssessment": "Corroborating institutional or specialist accounts; shared underlying scholarship remains possible.",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "delhi-sultanate-emerges",
+      "title": "The Delhi Sultanate emerges",
+      "year": 1206,
+      "placeId": "delhi",
+      "description": "The Delhi Sultanate is conventionally dated from 1206, after the death of the Ghurid ruler Muizz al-Din and the division of his territories among commanders. Qutb al-Din Aybak held Lahore, Ajmer, and Delhi, while Iltutmish later consolidated the sultanate. This is a transition in political authority, not Delhi's foundation. The label also covers several successive dynasties rather than one unchanging royal family, and the 1206 marker does not establish their later territorial extent.",
+      "datePrecision": "conventional period boundary; 1206 is a navigation anchor for the emergence of successor rule",
+      "displayDate": "1206 CE · conventional beginning",
+      "earliestYear": 1206,
+      "latestYear": 1206,
+      "sourceIds": [
+        "iranica-delhi-political",
+        "archnet-delhi-sultanates"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "delhi-period-boundary",
+          "text": "Archnet dates the five successive Delhi sultanates collectively to 1206–1526.",
+          "sourceIds": [
+            "archnet-delhi-sultanates"
+          ]
+        },
+        {
+          "id": "delhi-ghurid-successors",
+          "text": "After Muizz al-Din's death in 1206, Aybak held Lahore, Ajmer, and Delhi; Iltutmish became his successor.",
+          "sourceIds": [
+            "iranica-delhi-political"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "Archnet supplies a conventional architectural-period framework; Iranica provides a political account that complicates a single founding moment and notes uncertainty over Aybak's use of the sultan title. They support complementary claims rather than two identical accession accounts.",
+      "locationNote": "Delhi is an associated political center. The card does not claim Aybak's coronation occurred at this marker, and it does not replace Lahore or the other centers in the historical account."
+    },
+    {
+      "id": "raziyya-delhi",
+      "title": "Raziyya rules Delhi",
+      "year": 1236,
+      "placeId": "delhi",
+      "description": "Raziyya, daughter of Iltutmish, ruled the Delhi Sultanate from 1236 to 1240. A silver tanka in Sarmaya's collection provides an object through which to approach this reign: the museum attributes it to her early rule and identifies Iltutmish's name in its inscription. Read together, chronology and coin evidence invite attention to how authority was presented. The navigation year marks the start of a reign, while the displayed range keeps its duration visible.",
+      "datePrecision": "reign range; 1236 is the navigation anchor at its beginning",
+      "displayDate": "1236–1240 CE",
+      "earliestYear": 1236,
+      "latestYear": 1240,
+      "sourceIds": [
+        "sarmaya-razia-tanka",
+        "srdc-razia"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "raziyya-reign",
+          "text": "Raziyya, Iltutmish's daughter, ruled Delhi from 1236 to 1240.",
+          "sourceIds": [
+            "sarmaya-razia-tanka",
+            "srdc-razia"
+          ]
+        },
+        {
+          "id": "raziyya-coin",
+          "text": "Sarmaya attributes silver tanka 2015.N.136.1 to her early reign and describes it as bearing Iltutmish's name.",
+          "sourceIds": [
+            "sarmaya-razia-tanka"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "A museum's object record and a Delhi heritage agency's historical summary corroborate the reign range. The coin description depends on Sarmaya's attribution and was not independently inspected numismatically. Shared underlying biographical sources are not fully documented, so independence remains limited.",
+      "locationNote": "The marker represents Delhi as the center of her rule. It is not the coin's verified mint location, the contested tomb identification, or the place of her death."
+    },
+    {
+      "id": "mamluk-egypt-emerges",
+      "title": "Mamluk government emerges in Egypt",
+      "year": 1250,
+      "placeId": "cairo",
+      "description": "Mamluk military elites overthrew Turan Shah in Egypt in 1250, opening the period conventionally called the Mamluk sultanate. Cairo became its capital, and later rulers sponsored religious, educational, commercial, and public buildings. The transition in Egypt did not immediately end Ayyubid government throughout Syria. Keeping this distinction visible avoids turning a period label into a claim that the whole region changed rulers at once; the marker identifies a center of government, not every battlefield involved.",
+      "datePrecision": "year; 1250 is the navigation anchor for the Egyptian transition, not all regional Ayyubid endings",
+      "displayDate": "1250 CE",
+      "earliestYear": 1250,
+      "latestYear": 1250,
+      "sourceIds": [
+        "met-mamluk",
+        "egypt-historic-cairo"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "mamluk-egypt-transition",
+          "text": "Mamluks overthrew Turan Shah in Egypt in 1250, beginning the Mamluk sultanate.",
+          "sourceIds": [
+            "met-mamluk"
+          ]
+        },
+        {
+          "id": "mamluk-cairo-period",
+          "text": "Cairo was the Mamluk capital; its Mamluk period is conventionally dated 1250–1517.",
+          "sourceIds": [
+            "met-mamluk",
+            "egypt-historic-cairo"
+          ]
+        },
+        {
+          "id": "mamluk-regional-transition",
+          "text": "The Met distinguishes the Egyptian transition in 1250 from the takeover of remaining Ayyubid strongholds after 1260.",
+          "sourceIds": [
+            "met-mamluk"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "The Met's political and art-historical synthesis is paired with an Egyptian ministry account of Cairo's urban history. The ministry corroborates the period boundary and urban setting, not the complete political sequence or every institutional claim.",
+      "locationNote": "Cairo is the associated capital. Its modern city reference does not locate Turan Shah's killing or reconstruct the geographical extent of Mamluk rule."
+    },
+    {
+      "id": "baghdad-1258",
+      "year": 1258,
+      "title": "The Mongol capture of Baghdad",
+      "description": "Hulegu's army captured the city, ending the Abbasid caliphate based there.",
+      "placeId": "baghdad",
+      "sourceIds": [
+        "met-ilkhanid",
+        "orias-persia"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "ibn-hajj",
+      "year": 1326,
+      "title": "Ibn Battuta reaches Mecca",
+      "description": "His first hajj connected an overland journey through Egypt, the Levant and the Hijaz.",
+      "placeId": "mecca",
+      "sourceIds": [
+        "orias-hajj",
+        "fordham-rihla"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "sourceIndependenceNote": "The teaching materials and translated excerpts share Ibn Battuta’s Rihla as their underlying narrative. They are related interpretations, not independent eyewitness accounts; exact arrival dates remain uncertain where noted."
+    },
+    {
+      "id": "ibn-baghdad",
+      "year": 1327,
+      "title": "A traveler in Baghdad",
+      "description": "Ibn Battuta described the city's bridges, markets and baths.",
+      "placeId": "baghdad",
+      "sourceIds": [
+        "orias-persia",
+        "fordham-rihla"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "sourceIndependenceNote": "The teaching materials and translated excerpts share Ibn Battuta’s Rihla as their underlying narrative. They are related interpretations, not independent eyewitness accounts; exact arrival dates remain uncertain where noted."
+    },
+    {
+      "id": "ibn-delhi",
+      "year": 1334,
+      "title": "Ibn Battuta in Delhi",
+      "description": "During the 1330s he entered Muhammad bin Tughluq's service as a judge. The year shown follows ORIAS's approximate chronology.",
+      "placeId": "delhi",
+      "sourceIds": [
+        "orias-delhi",
+        "lee-delhi"
+      ],
+      "datePrecision": "circa 1334; exact arrival chronology unresolved",
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "sourceIndependenceNote": "The teaching materials and translated excerpts share Ibn Battuta’s Rihla as their underlying narrative. They are related interpretations, not independent eyewitness accounts; exact arrival dates remain uncertain where noted."
+    },
+    {
+      "id": "ibn-sri-pada",
+      "year": 1344,
+      "title": "A pilgrimage in Sri Lanka",
+      "description": "Ibn Battuta's account describes climbing to the sacred footprint at Adam's Peak.",
+      "placeId": "sri-pada",
+      "sourceIds": [
+        "orias-islands",
+        "lee-ceylon"
+      ],
+      "datePrecision": "circa 1344; selected journey chronology",
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "sourceIndependenceNote": "The teaching materials and translated excerpts share Ibn Battuta’s Rihla as their underlying narrative. They are related interpretations, not independent eyewitness accounts; exact arrival dates remain uncertain where noted."
+    },
+    {
+      "id": "ottoman-constantinople",
+      "year": 1453,
+      "title": "Ottoman conquest of Constantinople",
+      "description": "The city passed to the Ottomans and became their imperial capital.",
+      "placeId": "istanbul",
+      "sourceIds": [
+        "met-ottoman",
+        "lacma-islamic"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "safavid-tabriz",
+      "year": 1501,
+      "title": "Safavid rule begins at Tabriz",
+      "description": "Ismail I's accession established the Safavid dynasty.",
+      "placeId": "tabriz",
+      "sourceIds": [
+        "met-safavid",
+        "iranica-ismail"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "babur-kabul",
+      "year": 1504,
+      "title": "Babur takes Kabul",
+      "description": "Kabul became Babur's base before his later expansion into northern India.",
+      "placeId": "kabul",
+      "sourceIds": [
+        "met-mughal",
+        "si-kabul"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "ottoman-egypt",
+      "year": 1517,
+      "title": "Egypt enters the Ottoman realm",
+      "description": "Selim I's defeat of the Mamluks brought Egypt under Ottoman rule.",
+      "placeId": "cairo",
+      "sourceIds": [
+        "met-ottoman",
+        "egypt-ottoman"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "mughal-delhi",
+      "year": 1526,
+      "title": "Mughal rule begins",
+      "description": "Babur seized the Delhi Sultanate from Ibrahim Lodi. The marker identifies the political center affected.",
+      "placeId": "delhi",
+      "sourceIds": [
+        "vam-mughal",
+        "unesco-red-fort"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "isfahan-capital",
+      "year": 1598,
+      "title": "Isfahan becomes the Safavid capital",
+      "description": "Shah Abbas selected Isfahan around 1597–1598, beginning a major transformation of its urban landscape.",
+      "placeId": "isfahan",
+      "sourceIds": [
+        "met-isfahan",
+        "iranica-isfahan"
+      ],
+      "datePrecision": "circa 1597–1598; final year used for navigation",
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "displayDate": "c. 1597–1598 CE",
+      "earliestYear": 1597,
+      "latestYear": 1598
+    },
+    {
+      "id": "dhaka-provincial-capital",
+      "year": 1610,
+      "title": "Dhaka becomes a Mughal provincial capital",
+      "description": "Islam Khan transferred Bengal’s provincial capital from Rajmahal to Dhaka in 1610 and used the name Jahangirnagar in honor of the emperor. The city’s river connections mattered to Mughal efforts to establish authority in the surrounding region. Banglapedia’s account of Musa Khan shows that this expansion met organized resistance. Dhaka’s growth therefore belongs to a history of administration and contested power, not simply an empty space receiving a new capital.",
+      "placeId": "dhaka",
+      "sourceIds": [
+        "bangla-dhaka",
+        "bangla-musa"
+      ],
+      "datePrecision": "year",
+      "sourceAssessment": "Two Banglapedia entries provide capital and campaign context; they share publisher and may draw on related historical accounts.",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "shalamar-gardens",
+      "year": 1642,
+      "title": "Shalamar Gardens: water and imperial design",
+      "description": "Shah Jahan’s Shalamar Gardens were laid out in 1641–1642 near Lahore. Terraces, water channels, pools, and pavilions made landscape design part of Mughal courtly culture. Their history brings engineers and garden makers into a map otherwise dominated by rulers and battles. The year 1642 is the end of the documented construction range. The Lahore reference pin indicates the city, not the separate garden site or its historical boundaries.",
+      "placeId": "lahore",
+      "sourceIds": [
+        "unesco-lahore",
+        "punjab-shalamar-report"
+      ],
+      "datePrecision": "1641–1642; final year used for navigation",
+      "sourceAssessment": "UNESCO property description and State Party conservation report share the World Heritage evidence framework.",
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "displayDate": "1641–1642 CE",
+      "earliestYear": 1641,
+      "latestYear": 1642
+    },
+    {
+      "id": "taj-mahal",
+      "year": 1648,
+      "title": "The Taj Mahal mausoleum completed",
+      "description": "Shah Jahan's mausoleum for Mumtaz Mahal was completed by 1648; the wider complex developed over a longer period.",
+      "placeId": "agra",
+      "sourceIds": [
+        "unesco-agra",
+        "asi-taj",
+        "up-taj"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "lahore-ranjit-singh-1799",
+      "title": "Ranjit Singh takes Lahore",
+      "year": 1799,
+      "placeId": "lahore",
+      "description": "Ranjit Singh took Lahore in 1799 and made the city the center of his rule in Punjab. Nadhra Shahbaz Naeem’s study places his court in the Mughal-built Lahore Fort, giving an existing imperial complex a new political life. This episode helps explain the regional state that developed between declining Mughal authority and expanding Company power. The occupation of Lahore and his later assumption of the title maharaja were separate milestones. The city marker introduces the change of government; it does not locate his entry into the city or reconstruct the extent of his kingdom.",
+      "datePrecision": "year",
+      "displayDate": "1799 CE",
+      "earliestYear": 1799,
+      "latestYear": 1799,
+      "sourceIds": [
+        "late-wallace-ranjit",
+        "late-naeem-lahore-court"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "claim-lahore-ranjit-occupation",
+          "text": "Ranjit Singh occupied Lahore in 1799 and governed from its court.",
+          "sourceIds": [
+            "late-wallace-ranjit",
+            "late-naeem-lahore-court"
+          ]
+        },
+        {
+          "id": "claim-lahore-ranjit-fort",
+          "text": "Nadhra Shahbaz Naeem’s study locates Ranjit Singh’s residence and court within the Mughal-built Lahore Fort.",
+          "sourceIds": [
+            "late-naeem-lahore-court"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "A museum curatorial history and Nadhra Shahbaz Naeem’s scholarly study have different authors and institutional provenance. Naeem explicitly works with contemporary court visitors; shared historical traditions remain possible. The record avoids a precise entry day and contested details of the takeover.",
+      "locationNote": "Existing Lahore city reference point; not an exact entrance gate, battlefield, court room, or kingdom boundary."
+    },
+    {
+      "id": "istanbul-gulhane-1839",
+      "title": "The Gülhane reform proclamation",
+      "year": 1839,
+      "placeId": "istanbul",
+      "description": "The Gülhane proclamation of 3 November 1839 announced an Ottoman program for protecting subjects’ lives and property and regularizing taxation and military service. Read publicly in Istanbul under Sultan Abdülmecid, it became a major reference point for the reforms called Tanzimat. The decree’s promises are evidence of a stated program, not proof that officials applied them uniformly throughout the empire. Reading the proclamation alongside later scholarship also reveals that reform had earlier roots and involved several institutions, rather than the initiative of a single minister.",
+      "datePrecision": "day; timeline navigation uses the year",
+      "displayDate": "3 November 1839 CE",
+      "earliestYear": 1839,
+      "latestYear": 1839,
+      "sourceIds": [
+        "late-gulhane-text",
+        "late-tdv-tanzimat"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "claim-gulhane-date",
+          "text": "The Gülhane proclamation dates to 3 November 1839.",
+          "sourceIds": [
+            "late-gulhane-text",
+            "late-tdv-tanzimat"
+          ]
+        },
+        {
+          "id": "claim-gulhane-program",
+          "text": "The proclamation promised protection of life and property and regular arrangements for taxation and military service.",
+          "sourceIds": [
+            "late-gulhane-text",
+            "late-tdv-tanzimat"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "The English translation is a derivative of the decree, not a second eyewitness. Ali Akyıldız’s specialist entry supplies contextual scholarship and references Ottoman records beyond the decree. Both necessarily share the proclamation as evidence for its wording; the English translator is unidentified.",
+      "locationNote": "Existing Istanbul city reference point. The text was read at Gülhane; the atlas marker does not pinpoint the proclamation platform or palace."
+    },
+    {
+      "id": "delhi-1857",
+      "year": 1857,
+      "title": "Delhi in the uprising of 1857",
+      "description": "British forces stormed Delhi in September during the rebellion.",
+      "placeId": "delhi",
+      "sourceIds": [
+        "nam-rebellion",
+        "nms-delhi-objects"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "crown-rule-india",
+      "year": 1858,
+      "title": "Company government passes to the British Crown",
+      "description": "Following the uprising of 1857, the Government of India Act of 1858 transferred the East India Company’s administrative powers to the British Crown. A secretary of state advised by a council took over the former company government’s role in Britain. This was a change in colonial administration, not independence. Delhi is used as a regional navigation anchor because the preceding uprising record is linked there; the Act was passed in Britain and affected a much wider territory.",
+      "placeId": "delhi",
+      "sourceIds": [
+        "parliament-company-rule",
+        "hansard-india-1886"
+      ],
+      "datePrecision": "year; regional navigation anchor, not the location of enactment",
+      "sourceAssessment": "Parliamentary synthesis corroborated by a retrospective parliamentary debate; shared institutional provenance. Enacted-law page was inaccessible and is not cited.",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "istanbul-constitution-1876",
+      "title": "An Ottoman constitution and a new parliament",
+      "year": 1876,
+      "placeId": "istanbul",
+      "description": "Sultan Abdülhamid II promulgated the Ottoman constitution on 23 December 1876. It provided for a parliament with two chambers, which opened in Istanbul the following March. The appointed Senate and elected chamber existed alongside substantial authority retained by the sultan. This marker therefore distinguishes a constitutional text from the later meeting of its institutions. A contemporary American diplomatic report describes the opening ceremony and the two houses, while also revealing the observer’s limitations: he admitted that he could not understand parliamentary proceedings without an interpreter.",
+      "datePrecision": "day of promulgation; parliamentary opening is a separate 1877 milestone",
+      "displayDate": "23 December 1876 CE",
+      "earliestYear": 1876,
+      "latestYear": 1876,
+      "sourceIds": [
+        "late-tbmm-constitution",
+        "late-maynard-parliament"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "claim-ottoman-constitution-date",
+          "text": "The Ottoman constitution was promulgated on 23 December 1876; the parliament it envisaged opened on 19 March 1877.",
+          "sourceIds": [
+            "late-tbmm-constitution",
+            "late-maynard-parliament"
+          ]
+        },
+        {
+          "id": "claim-ottoman-bicameral",
+          "text": "The parliamentary system had two houses, including a Senate appointed by the sultan for life.",
+          "sourceIds": [
+            "late-tbmm-constitution",
+            "late-maynard-parliament"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "The Turkish parliament’s retrospective institutional history is checked against Horace Maynard’s April 1877 dispatch, written after attending the opening and a sitting. His account also reproduces official invitations and translations, so those enclosed texts are dependent official evidence, not additional independent witnesses.",
+      "locationNote": "Existing Istanbul city reference point. The event concerns the imperial capital; the marker is not the Dolmabahçe throne hall or the chamber’s meeting building."
+    },
+    {
+      "id": "karachi-port-trust-1887",
+      "title": "Karachi’s port gains a trust administration",
+      "year": 1887,
+      "placeId": "karachi",
+      "description": "Legislation dated 8 February 1887 provided for Karachi’s port to be administered by trustees. Its short title, the Karachi Port Trust Act, 1886, preserves a different year from that date, a distinction easily lost in a timeline. The change concerned the governance of an existing harbor, not the founding of Karachi or the beginning of maritime trade there. A university conservation study places the trust within the port’s institutional development. This episode connects the Arabian Sea city to the administrative infrastructure of colonial commerce without inventing a shipping route.",
+      "datePrecision": "year of enactment; Act title retains 1886",
+      "displayDate": "1887 CE · Act titled 1886",
+      "earliestYear": 1887,
+      "latestYear": 1887,
+      "sourceIds": [
+        "late-karachi-act",
+        "late-ned-port-report",
+        "late-kpt-history"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "claim-karachi-trust-act",
+          "text": "The Karachi Port Trust Act is titled 1886 but bears the date 8 February 1887; the NED conservation report likewise places enactment in 1887.",
+          "sourceIds": [
+            "late-karachi-act",
+            "late-ned-port-report"
+          ]
+        },
+        {
+          "id": "claim-karachi-existing-port",
+          "text": "The trust concerned administration of an already existing port, not the establishment of Karachi’s maritime settlement.",
+          "sourceIds": [
+            "late-ned-port-report",
+            "late-kpt-history"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "The government-hosted statute preserves the title, date, and purpose; the NED University conservation study supplies a separate historical narrative, and KPT’s institutional history confirms earlier harbor development. The hosted Act is an amended compilation, so its present trustee composition is not projected back to 1887. These are partly related institutional records, not independent accounts of every administrative detail.",
+      "locationNote": "Existing Karachi city reference point; not the harbor boundary, a particular wharf, or the later KPT headquarters building."
+    },
+    {
+      "id": "dhaka-provincial-capital-1905",
+      "title": "Dhaka becomes a provincial capital",
+      "year": 1905,
+      "placeId": "dhaka",
+      "description": "The partition of Bengal took effect on 16 October 1905, making Dhaka the capital of the new province of Eastern Bengal and Assam. This brought a provincial administration to the city within British India. Contemporary parliamentary debate records opposition to the reorganization as well as the government’s plans for buildings at Dacca, the spelling used in those records. Dhaka’s new status was temporary: the territorial reorganization of 1912 ended the province. This event concerns an administrative partition in 1905, distinct from the independence and Partition settlement of 1947.",
+      "datePrecision": "day of implementation; later reversal distinguished",
+      "displayDate": "16 October 1905 CE",
+      "earliestYear": 1905,
+      "latestYear": 1905,
+      "sourceIds": [
+        "late-banglapedia-bengal",
+        "late-bangladesh-museum-history",
+        "late-hansard-bengal",
+        "late-calcutta-commission-dacca"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "claim-dhaka-capital-1905",
+          "text": "The Bengal reorganization took effect on 16 October 1905 and made Dhaka capital of Eastern Bengal and Assam.",
+          "sourceIds": [
+            "late-banglapedia-bengal",
+            "late-bangladesh-museum-history"
+          ]
+        },
+        {
+          "id": "claim-dhaka-capital-ended",
+          "text": "Dhaka’s capital status for Eastern Bengal and Assam ended with the territorial readjustment of 1 April 1912.",
+          "sourceIds": [
+            "late-banglapedia-bengal",
+            "late-calcutta-commission-dacca"
+          ]
+        },
+        {
+          "id": "claim-bengal-opposition",
+          "text": "The proposed reorganization faced opposition; this is documented in both contemporary parliamentary debate and later historical scholarship.",
+          "sourceIds": [
+            "late-hansard-bengal",
+            "late-banglapedia-bengal"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "Banglapedia and the national museum history agree on the implementation day and capital, but may draw on shared administrative chronology. Hansard is contemporary evidence of the proposal and controversy, not proof of its eventual start date. The Calcutta University Commission independently records the 1905–1912 capital period from a colonial administrative perspective. None is treated as a neutral account of all Bengali responses.",
+      "locationNote": "Existing Dhaka city reference point; not a Secretariat building or a traced 1905 provincial boundary."
+    },
+    {
+      "id": "tabriz-constitutional-resistance-1908",
+      "title": "Tabriz sustains constitutional resistance",
+      "year": 1908,
+      "placeId": "tabriz",
+      "description": "During 1908–1909, constitutionalists in Tabriz resisted forces seeking to restore the shah’s unrestricted authority. Fighting in the city developed into a blockade that exposed residents to hunger and disease. Sattar Khan became a prominent leader of this resistance. Russian troops ended the siege in 1909, but their arrival also established a military presence that threatened constitutional autonomy. Tabriz thus shows how a struggle over representation depended on provincial mobilization and foreign intervention. The year 1908 opens a multi-stage episode; it is not an exact date for a single battle.",
+      "datePrecision": "year range; stages of fighting and siege distinguished",
+      "displayDate": "1908–1909 CE",
+      "earliestYear": 1908,
+      "latestYear": 1909,
+      "sourceIds": [
+        "late-iranica-sattar",
+        "late-clark-tabriz",
+        "late-russian-officialdom"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "claim-tabriz-resistance",
+          "text": "Tabriz was a center of constitutionalist resistance in 1908–1909, with Sattar Khan among its leaders.",
+          "sourceIds": [
+            "late-iranica-sattar",
+            "late-russian-officialdom"
+          ]
+        },
+        {
+          "id": "claim-tabriz-siege",
+          "text": "A royalist blockade caused severe deprivation; Russian military intervention ended the siege in 1909 and brought an enduring foreign military presence.",
+          "sourceIds": [
+            "late-iranica-sattar",
+            "late-clark-tabriz",
+            "late-russian-officialdom"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "Iranica’s biographical synthesis and Clark’s peer-reviewed study are corroborated by a later archival study using Russian and Georgian collections. The later article cites Clark and other shared scholarship, so it is not wholly independent; its archival material adds a distinct evidentiary strand. Sources differ in how they periodize the siege, so no precise starting day is asserted.",
+      "locationNote": "Existing Tabriz city reference point; the resistance affected several neighborhoods and approaches, not one pin-sized battlefield."
+    },
+    {
+      "id": "delhi-capital-announcement",
+      "year": 1911,
+      "title": "The announcement of a capital at Delhi",
+      "description": "At the Delhi Durbar on 12 December 1911, George V announced the transfer of the capital of British India from Calcutta to Delhi. The announcement and the subsequent administrative and construction work are different milestones; this record marks the announcement. Compare it with the city’s earlier courtly histories and the later 1947 event. The city reference point does not identify the Durbar ground, the new government buildings, or a precise ceremonial route.",
+      "placeId": "delhi",
+      "sourceIds": [
+        "delhi-archives-history",
+        "delhi-government-history"
+      ],
+      "datePrecision": "year; announcement dated 12 December 1911",
+      "sourceAssessment": "Two official Delhi government histories; common institutional provenance, not independent eyewitness accounts.",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    },
+    {
+      "id": "cairo-women-protests-1919",
+      "title": "Women demonstrate in Cairo’s 1919 revolution",
+      "year": 1919,
+      "placeId": "cairo",
+      "description": "Women marched in Cairo during the Egyptian revolution of March 1919, protesting British rule and the exile of nationalist leaders. Huda Sha‘rawi was among the organizers. The demonstrations made women’s political participation publicly visible, but the prominent elite marches cannot represent every Egyptian woman’s experience. Historian Beth Baron reconstructs their preparation, petitions, and confrontation with soldiers while warning that the sources conflict over the detailed chronology. The atlas therefore preserves March as the event’s precision rather than compressing several protests into one unquestioned anniversary date.",
+      "datePrecision": "month; detailed chronology of several demonstrations remains contested",
+      "displayDate": "March 1919 CE",
+      "earliestYear": 1919,
+      "latestYear": 1919,
+      "sourceIds": [
+        "late-openlearn-egypt",
+        "late-baron-women-egypt"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "claim-cairo-women-march",
+          "text": "Women demonstrated in Cairo in March 1919 against British rule, with Huda Sha‘rawi among their leaders.",
+          "sourceIds": [
+            "late-openlearn-egypt",
+            "late-baron-women-egypt"
+          ]
+        },
+        {
+          "id": "claim-cairo-date-caution",
+          "text": "OpenLearn gives 16 March for a women’s demonstration; Beth Baron explicitly cautions that conflicting sources prevent a definitive detailed chronology of the several protests.",
+          "sourceIds": [
+            "late-openlearn-egypt",
+            "late-baron-women-egypt"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "The Open University teaching account and Beth Baron’s scholarly chapter have different authors and purposes. Baron consults Arabic and British records; the teaching page does not establish an independent primary-evidence chain. Agreement supports the bounded March episode, while the scholarly warning governs date precision and limits generalization from elite participants.",
+      "locationNote": "Existing Cairo city reference point; not the assembly house, a particular protest route, or all locations of the nationwide revolution."
+    },
+    {
+      "id": "dhaka-university-opens-1921",
+      "title": "Dhaka University opens",
+      "year": 1921,
+      "placeId": "dhaka",
+      "description": "Dhaka University opened on 1 July 1921, adding a teaching institution to the city’s changing educational landscape. Its historical outline records three initial faculties: Arts, Science, and Law. Banglapedia’s account of Jagannath College explains that the new university drew on existing colleges for students, teachers, and library books; the opening was therefore also a redistribution of educational resources. This episode invites comparison with Dhaka’s earlier role as a provincial capital. The city marker locates the institution’s urban setting without identifying an individual lecture room or treating the opening as the start of all higher learning there.",
+      "datePrecision": "day of opening; timeline navigation uses the year",
+      "displayDate": "1 July 1921 CE",
+      "earliestYear": 1921,
+      "latestYear": 1921,
+      "sourceIds": [
+        "late-du-outline",
+        "late-banglapedia-jagannath"
+      ],
+      "reviewStatus": "agent-reviewed; human scholarly review pending",
+      "claims": [
+        {
+          "id": "claim-dhaka-university-opening",
+          "text": "Dhaka University opened on 1 July 1921.",
+          "sourceIds": [
+            "late-du-outline",
+            "late-banglapedia-jagannath"
+          ]
+        },
+        {
+          "id": "claim-dhaka-university-context",
+          "text": "The university’s outline records three initial faculties, while Banglapedia attributes contributions of students, staff, and books to Jagannath and Dhaka Colleges.",
+          "sourceIds": [
+            "late-du-outline",
+            "late-banglapedia-jagannath"
+          ]
+        }
+      ],
+      "sourceIndependenceNote": "The university’s own chronology and a separately published Bangladesh Asiatic Society entry agree on the opening date. They may share institutional records; independence of their underlying accounts is not established. The faculty list and college contributions are explicitly attributed to their respective sources rather than presented as independently corroborated details.",
+      "locationNote": "Existing Dhaka city reference point; not a geocoded campus boundary, hall, or original classroom."
+    },
+    {
+      "id": "independence-partition",
+      "year": 1947,
+      "title": "Independence and Partition",
+      "description": "The Indian Independence Act provided for the independent dominions of India and Pakistan. This regional milestone is linked to Delhi; the marker does not represent the whole event.",
+      "placeId": "delhi",
+      "sourceIds": [
+        "independence-act",
+        "parliament-independence"
+      ],
+      "datePrecision": "year",
+      "reviewStatus": "agent source check; human scholarly review pending"
+    }
+  ],
+  "journeys": [
+    {
+      "id": "ibn-battuta",
+      "name": "Ibn Battuta: from the Nile to the Indian Ocean",
+      "person": "Ibn Battuta",
+      "fromYear": 1326,
+      "toYear": 1344,
+      "summary": "Twelve selected stops from a much longer journey, read through his travel account and Berkeley's teaching synthesis. Lines show sequence only: many intervening journeys are omitted, and the early-1340s dates are approximate.",
+      "sourceIds": [
+        "orias-journey",
+        "orias-hajj",
+        "orias-persia",
+        "orias-delhi",
+        "orias-islands",
+        "fordham-rihla",
+        "lee-delhi",
+        "lee-calicut",
+        "lee-maldives",
+        "lee-ceylon"
+      ],
+      "reviewStatus": "agent source check; human scholarly review pending",
+      "geometryNote": "Schematic connections between selected stops, not reconstructed roads, sea lanes, distances, or a continuous itinerary.",
+      "stops": [
+        {
+          "year": 1326,
+          "placeId": "alexandria",
+          "title": "A Mediterranean arrival",
+          "description": "Ibn Battuta visited Alexandria on his way east.",
+          "sourceIds": [
+            "orias-journey",
+            "fordham-rihla"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1326,
+          "placeId": "cairo",
+          "title": "Through Cairo",
+          "description": "His account describes Cairo before the journey toward the Hijaz.",
+          "sourceIds": [
+            "orias-hajj",
+            "fordham-rihla"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1326,
+          "placeId": "jerusalem",
+          "title": "A sacred-city visit",
+          "description": "He visited Jerusalem during the overland journey through the Levant.",
+          "sourceIds": [
+            "orias-hajj",
+            "fordham-rihla"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1326,
+          "placeId": "damascus",
+          "title": "Joining the pilgrimage route",
+          "description": "Damascus became his departure point for the caravan journey south.",
+          "sourceIds": [
+            "orias-hajj",
+            "fordham-rihla"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1326,
+          "placeId": "medina",
+          "title": "At the Prophet's Mosque",
+          "description": "He visited Medina before continuing to Mecca.",
+          "sourceIds": [
+            "orias-hajj",
+            "fordham-rihla"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1326,
+          "placeId": "mecca",
+          "title": "The first hajj",
+          "description": "He performed the pilgrimage that had prompted his departure from Morocco.",
+          "sourceIds": [
+            "orias-hajj",
+            "fordham-rihla"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1327,
+          "placeId": "baghdad",
+          "title": "Bridges and markets",
+          "description": "His account records the city during his journey through Iraq and Persia.",
+          "sourceIds": [
+            "orias-persia",
+            "fordham-rihla"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1327,
+          "placeId": "tabriz",
+          "title": "The city's bazaar",
+          "description": "He described Tabriz's market during a short visit.",
+          "sourceIds": [
+            "orias-persia",
+            "fordham-rihla"
+          ],
+          "datePrecision": "year"
+        },
+        {
+          "year": 1334,
+          "placeId": "delhi",
+          "title": "Service at the sultan's court",
+          "description": "He served as a judge under Muhammad bin Tughluq. The arrival year is approximate.",
+          "sourceIds": [
+            "orias-delhi",
+            "lee-delhi"
+          ],
+          "datePrecision": "circa 1334; chronology unresolved"
+        },
+        {
+          "year": 1342,
+          "placeId": "kozhikode",
+          "title": "An interrupted voyage",
+          "description": "At Calicut, a storm disrupted his intended voyage to China. The selected year is approximate.",
+          "sourceIds": [
+            "orias-islands",
+            "lee-calicut"
+          ],
+          "datePrecision": "early 1340s; approximate navigation year"
+        },
+        {
+          "year": 1343,
+          "placeId": "male",
+          "title": "Judge at an island court",
+          "description": "His account describes judicial service and disputes over local customs in the Maldives.",
+          "sourceIds": [
+            "orias-islands",
+            "lee-maldives"
+          ],
+          "datePrecision": "early 1340s; approximate navigation year"
+        },
+        {
+          "year": 1344,
+          "placeId": "sri-pada",
+          "title": "The mountain pilgrimage",
+          "description": "He describes ascending Adam's Peak to visit the sacred footprint. No precise location pin has been imported.",
+          "sourceIds": [
+            "orias-islands",
+            "lee-ceylon"
+          ],
+          "datePrecision": "circa 1344"
+        }
+      ],
+      "sourceIndependenceNote": "The teaching materials and translated excerpts share Ibn Battuta’s Rihla as their underlying narrative. They are related interpretations, not independent eyewitness accounts; exact arrival dates remain uncertain where noted."
+    }
+  ]
+}

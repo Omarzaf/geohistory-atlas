@@ -1,0 +1,56 @@
+{
+  "id": "natural-earth-50m-shaded-relief",
+  "title": "Natural Earth 1:50m Shaded Relief",
+  "publisher": "Natural Earth",
+  "sourceUrl": "https://www.naturalearthdata.com/downloads/50m-raster-data/50m-shaded-relief/",
+  "archiveUrl": "https://naciscdn.org/naturalearth/50m/raster/SR_50M.zip",
+  "advertisedVersion": "3.2.0",
+  "embeddedVersion": "2.0.0",
+  "versionNote": "The official page advertises version 3.2.0; the downloaded archive contains VERSION.txt 2.0.0. Both are retained. The exact inputs are identified by hashes.",
+  "retrievedOn": "2026-11-19",
+  "archive": {
+    "bytes": 11380369,
+    "sha256": "ff810f5f2747463fd8ffa612b23e5f5e5d593a345218976872b6749610976ab7"
+  },
+  "raster": {
+    "file": "SR_50M.tif",
+    "width": 10800,
+    "height": 5400,
+    "sha256": "aff6ec6905554ed489087edf46e61cbf68c810fe99f2a1d2cddda7e986a540a2",
+    "crs": "WGS 84 geographic coordinates",
+    "worldFile": "          0.03333333333333 \n          0.00000000000000 \n          0.00000000000000 \n          -0.03333333333333 \n          -179.98333333333333 \n          89.98333333333333 \n",
+    "worldFileSha256": "7f1cc97126a52814c874ec326a8275c7ded3edc4d7bced417f76d71a995069bd"
+  },
+  "license": "Public domain",
+  "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "attribution": "Made with Natural Earth. Grayscale relief derived by Natural Earth from downsampled SRTM Plus elevation data.",
+  "purpose": "Modern physical relief for orientation. This layer does not reconstruct historical terrain or validate historical borders.",
+  "derivation": {
+    "script": "scripts/build-region-relief.mjs",
+    "projection": "The same MercatorProjector and CONFIG.bounds used by the SVG atlas",
+    "bounds": {
+      "west": 24,
+      "east": 98,
+      "south": -2,
+      "north": 44
+    },
+    "viewBox": {
+      "x": 0,
+      "y": 0,
+      "width": 1200,
+      "height": 760
+    },
+    "sampleMethod": "Bilinear interpolation from source pixel centers; output samples at SVG pixel centers",
+    "treatment": "Grayscale without additional hillshading, elevation inference, or contrast transformation. Clip to the atlas land geometry when displayed.",
+    "encoder": "cwebp 1.6.0\nlibsharpyuv: 0.4.2",
+    "encoderArguments": "-q 86 -m 6 -metadata none",
+    "metadata": "Source, public-domain rights and archive hash embedded as XMP with webpmux"
+  },
+  "output": {
+    "path": "assets/region/relief.webp",
+    "width": 2400,
+    "height": 1520,
+    "bytes": 379774,
+    "sha256": "a7622162115a5472547bd504063b20872f3ad5a58ea531d1a4d1a5f32d190254"
+  }
+}

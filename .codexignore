@@ -1,0 +1,9 @@
+# Generated output, caches, and large binary assets; inspect explicitly when needed.
+dist/
+.cache/
+.impeccable/
+.playwright-mcp/
+.vercel/
+node_modules/
+assets/region/relief.webp
+js/region/snapshots.js

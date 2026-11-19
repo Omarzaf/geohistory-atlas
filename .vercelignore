@@ -1,0 +1,16 @@
+.git/
+.github/
+.agents/
+.codex/
+.impeccable/
+.playwright-mcp/
+.cache/
+.vercel/
+node_modules/
+dist/
+.env*
+**/.env*
+.DS_Store
+*.log
+AGENTS.md
+**/AGENTS.md
